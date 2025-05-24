@@ -28,62 +28,82 @@ A Full Stack MERN application that allows students to scan QR codes placed on me
 
 ---
 
-## 📁 Folder Structure
+Sure! Here's a clean and friendly version of the `README.md` section for your `/messmate-backend` folder structure, written to be clear for both contributors and new developers:
 
+---
+
+## 📁 Backend Folder Structure
+
+The backend is built with **Node.js**, **Express**, and **MongoDB (Mongoose)**. Below is the modular structure used for scalability and clean separation of concerns:
+
+```
 /messmate-backend
-├── controllers/ # Handles HTTP requests (req, res) for orders, users, menu, etc.
-│ ├── authController.js
-│ ├── orderController.js
-│ ├── menuController.js
-│ └── adminController.js
-│
-├── services/ # Business logic like calculating totals, updating statuses
-│ ├── authService.js
-│ ├── orderService.js
-│ └── menuService.js
-│
-├── models/ # Mongoose schemas
-│ ├── User.js
-│ ├── Order.js
-│ ├── MenuItem.js
-│ └── Table.js
-│
-├── repositories/ # Data access layer (optional if services directly use models)
-│ ├── orderRepository.js
-│ └── userRepository.js
-│
-├── middlewares/ # Auth, error handling, logging, etc.
-│ ├── authMiddleware.js
-│ ├── errorHandler.js
-│ └── logger.js
-│
-├── routes/ # Express routes grouped by feature
-│ ├── authRoutes.js
-│ ├── orderRoutes.js
-│ ├── menuRoutes.js
-│ └── adminRoutes.js
-│
-├── utils/ # Helper functions (JWT, QR code, etc.)
-│ ├── generateToken.js
-│ ├── qrUtils.js
-│ └── constants.js
-│
-├── config/ # Configuration (env, DB connection, etc.)
-│ ├── db.js
-│ └── config.js
-│
-├── tests/ # Unit and integration tests
-│ ├── auth.test.js
-│ ├── order.test.js
-│ └── menu.test.js
-│
-├── migrations/ # (Optional) Seed scripts or DB migration helpers
-│ └── seedMenu.js
-│
-├── index.js # Entry point – initializes app, connects DB, sets up routes
-│
-├── Dockerfile # Container setup
-├── .env # Environment variables
-├── .gitignore
-├── package.json
-└── README.md
+├── controllers/        # Handle HTTP requests (req, res) for each feature
+│   ├── authController.js
+│   ├── orderController.js
+│   ├── menuController.js
+│   └── adminController.js
+
+├── services/           # Core business logic (validation, status updates, etc.)
+│   ├── authService.js
+│   ├── orderService.js
+│   └── menuService.js
+
+├── models/             # MongoDB schemas using Mongoose
+│   ├── User.js
+│   ├── Order.js
+│   ├── MenuItem.js
+│   └── Table.js
+
+├── repositories/       # Abstract database interactions (optional layer)
+│   ├── orderRepository.js
+│   └── userRepository.js
+
+├── middlewares/        # Middleware for authentication, error handling, logging
+│   ├── authMiddleware.js
+│   ├── errorHandler.js
+│   └── logger.js
+
+├── routes/             # API route definitions grouped by feature
+│   ├── authRoutes.js
+│   ├── orderRoutes.js
+│   ├── menuRoutes.js
+│   └── adminRoutes.js
+
+├── utils/              # Utility functions like token generation, QR code helpers
+│   ├── generateToken.js
+│   ├── qrUtils.js
+│   └── constants.js
+
+├── config/             # Configuration files (e.g., DB connection, environment setup)
+│   ├── db.js
+│   └── config.js
+
+├── tests/              # Unit and integration tests
+│   ├── auth.test.js
+│   ├── order.test.js
+│   └── menu.test.js
+
+├── migrations/         # Seeders or database migration scripts
+│   └── seedMenu.js
+
+├── index.js            # Application entry point (bootstraps server and DB)
+├── Dockerfile          # Docker configuration for containerization
+├── .env                # Environment variables (e.g., DB URI, JWT secret)
+├── .gitignore          # Files/folders to exclude from git
+├── package.json        # Project metadata and dependencies
+└── README.md           # Project documentation
+```
+
+---
+
+### 📌 Notes:
+
+- Routes follow the pattern: `/api/v1/{resource}` (e.g., `/api/v1/orders`)
+- JWT is used for authentication
+- `.env` stores sensitive config like `MONGO_URI`, `JWT_SECRET`, and `PORT`
+- Docker is supported for deployment
+
+---
+
+Let me know if you'd like this markdown added to your actual `README.md` file or need it adapted for monorepo or frontend structure too!
