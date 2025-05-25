@@ -55,7 +55,6 @@ const login = async (req, res) => {
   }
 };
 
-// TODO: Not yet implemented
 const register = async (req, res) => {
   logger.debug("Received a request on /register.");
   const { profile_photo, name, email, password, role } = req.body;
@@ -74,7 +73,6 @@ const register = async (req, res) => {
       return res.status(400).json({ message: message });
     }
 
-    // TODO: Password should be salted and stored as a hash with the salt secret stored securely
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
 

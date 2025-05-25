@@ -101,5 +101,5 @@ The backend is built with **Node.js**, **Express**, and **MongoDB (Mongoose)**. 
 
 - Routes follow the pattern: `/api/v1/{resource}` (e.g., `/api/v1/orders`)
 - JWT is used for authentication
-- `.env` stores sensitive config like `MONGO_URI`, `JWT_SECRET`, and `PORT`
+- `.env` stores sensitive config: `MONGO_URI`, `JWT_SECRET`, and `BACKEND_PORT`
 - Docker is supported for deployment
