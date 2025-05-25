@@ -1,6 +1,6 @@
 # 🍽️ MessMate - QR-Based Food Ordering System
 
-A Full Stack MERN application that allows students to scan QR codes placed on mess tables to browse the menu and place food orders directly from their devices.
+The backend for a Full Stack MERN application that allows students to scan QR codes placed on mess tables to browse the menu and place food orders directly from their devices.
 
 ---
 
@@ -103,7 +103,3 @@ The backend is built with **Node.js**, **Express**, and **MongoDB (Mongoose)**. 
 - JWT is used for authentication
 - `.env` stores sensitive config like `MONGO_URI`, `JWT_SECRET`, and `PORT`
 - Docker is supported for deployment
-
----
-
-Let me know if you'd like this markdown added to your actual `README.md` file or need it adapted for monorepo or frontend structure too!

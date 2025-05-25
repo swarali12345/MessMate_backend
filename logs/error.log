@@ -1,0 +1,1611 @@
+[2025-05-25 00:39:08] [31merror[39m: uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/controllers/auth.controller.js:1:18
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:395:35)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1411:24)
+    at Module._compile (node:internal/modules/cjs/loader:1544:5)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+Stack: ReferenceError: require is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/controllers/auth.controller.js:1:18
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:395:35)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1411:24)
+    at Module._compile (node:internal/modules/cjs/loader:1544:5)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+[2025-05-25 00:39:41] [31merror[39m: uncaughtException: Unexpected token 'const'
+SyntaxError: Unexpected token 'const'
+    at compileSourceTextModule (node:internal/modules/esm/utils:338:16)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:322:18)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1411:24)
+    at Module._compile (node:internal/modules/cjs/loader:1544:5)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+Stack: SyntaxError: Unexpected token 'const'
+    at compileSourceTextModule (node:internal/modules/esm/utils:338:16)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:322:18)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1411:24)
+    at Module._compile (node:internal/modules/cjs/loader:1544:5)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+[2025-05-25 00:40:00] [31merror[39m: uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/controllers/auth.controller.js:1:18
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:395:35)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1411:24)
+    at Module._compile (node:internal/modules/cjs/loader:1544:5)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+Stack: ReferenceError: require is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/controllers/auth.controller.js:1:18
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:395:35)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1411:24)
+    at Module._compile (node:internal/modules/cjs/loader:1544:5)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+[2025-05-25 00:40:38] [31merror[39m: uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/controllers/auth.controller.js:1:18
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:395:35)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1411:24)
+    at Module._compile (node:internal/modules/cjs/loader:1544:5)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+Stack: ReferenceError: require is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/controllers/auth.controller.js:1:18
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:395:35)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1411:24)
+    at Module._compile (node:internal/modules/cjs/loader:1544:5)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+[2025-05-25 00:40:47] [31merror[39m: uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/controllers/auth.controller.js:1:18
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:395:35)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1411:24)
+    at Module._compile (node:internal/modules/cjs/loader:1544:5)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+Stack: ReferenceError: require is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/controllers/auth.controller.js:1:18
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:395:35)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1411:24)
+    at Module._compile (node:internal/modules/cjs/loader:1544:5)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+[2025-05-25 00:40:56] [31merror[39m: uncaughtException: Unexpected token '='
+F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:1
+=
+^
+
+SyntaxError: Unexpected token '='
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:1:19)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:1
+=
+^
+
+SyntaxError: Unexpected token '='
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:1:19)
+[2025-05-25 00:40:58] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:42:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:42:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 00:41:28] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:42:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:42:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:24:38] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:42:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:42:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:25:52] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:43:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:43:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:30:05] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:30:29] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:31:04] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:31:56] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:32:24] [31merror[39m: uncaughtException: Unexpected identifier 'error'
+F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:9
+      error: `${error}` });
+      ^^^^^
+
+SyntaxError: Unexpected identifier 'error'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:1:19)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:9
+      error: `${error}` });
+      ^^^^^
+
+SyntaxError: Unexpected identifier 'error'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:1:19)
+[2025-05-25 17:32:34] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:34:14] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:35:23] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:35:30] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:36:01] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:36:40] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:37:28] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:38:06] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:38:09] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:38:27] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:38:53] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:40:21] [31merror[39m: uncaughtException: Unexpected token '.'
+F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:36
+    email.user.email.
+         ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:1:19)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:36
+    email.user.email.
+         ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:1:19)
+[2025-05-25 17:40:35] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:40:51] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:40:53] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:41:17] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:41:35] [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: app.use() requires a middleware function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 17:43:36] [31merror[39m: uncaughtException: argument handler must be a function
+TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Stack: TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[2025-05-25 17:44:34] [31merror[39m: uncaughtException: argument handler must be a function
+TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Stack: TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[2025-05-25 17:44:39] [31merror[39m: uncaughtException: argument handler must be a function
+TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Stack: TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:47:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[2025-05-25 17:45:08] [31merror[39m: uncaughtException: argument handler must be a function
+TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:43:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Stack: TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:43:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[2025-05-25 17:45:11] [31merror[39m: uncaughtException: argument handler must be a function
+TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:43:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Stack: TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:43:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[2025-05-25 17:45:55] [31merror[39m: uncaughtException: argument handler must be a function
+TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:43:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Stack: TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:43:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[2025-05-25 17:46:04] [31merror[39m: uncaughtException: argument handler must be a function
+TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:43:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Stack: TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:43:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[2025-05-25 17:46:06] [31merror[39m: uncaughtException: argument handler must be a function
+TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:43:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Stack: TypeError: argument handler must be a function
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:392:13)
+    at Function.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:222:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\Git-Company-Projects\MessMate_backend\node_modules\express\lib\application.js:219:7)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:43:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[2025-05-25 17:46:49] [31merror[39m: uncaughtException: forgot is not defined
+ReferenceError: forgot is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:6:33)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:9:20)
+Stack: ReferenceError: forgot is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:6:33)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:9:20)
+[2025-05-25 17:46:53] [31merror[39m: uncaughtException: forgot_password is not defined
+ReferenceError: forgot_password is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:6:33)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:9:20)
+Stack: ReferenceError: forgot_password is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:6:33)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:9:20)
+[2025-05-25 17:47:05] [31merror[39m: uncaughtException: argument handler must be a function
+TypeError: argument handler must be a function
+    at Route.<computed> [as post] (F:\Git-Company-Projects\MessMate_backend\node_modules\router\lib\route.js:228:15)
+    at Router.<computed> [as post] (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:448:19)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+Stack: TypeError: argument handler must be a function
+    at Route.<computed> [as post] (F:\Git-Company-Projects\MessMate_backend\node_modules\router\lib\route.js:228:15)
+    at Router.<computed> [as post] (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:448:19)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+[2025-05-25 17:47:13] [31merror[39m: uncaughtException: Unexpected identifier 'register'
+F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:52
+  register,
+  ^^^^^^^^
+
+SyntaxError: Unexpected identifier 'register'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:52
+  register,
+  ^^^^^^^^
+
+SyntaxError: Unexpected identifier 'register'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 17:47:16] [31merror[39m: uncaughtException: register is not defined
+ReferenceError: register is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:51:27)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: ReferenceError: register is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:51:27)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 17:47:41] [31merror[39m: uncaughtException: logout is not defined
+ReferenceError: logout is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:58:37)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: ReferenceError: logout is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:58:37)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 17:47:54] [31merror[39m: uncaughtException: logout is not defined
+ReferenceError: logout is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:58:37)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: ReferenceError: logout is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:58:37)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 17:47:56] [31merror[39m: uncaughtException: logout is not defined
+ReferenceError: logout is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:60:37)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: ReferenceError: logout is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:60:37)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 17:48:00] [31merror[39m: uncaughtException: logout is not defined
+ReferenceError: logout is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:58:37)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: ReferenceError: logout is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:58:37)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 17:48:15] [31merror[39m: uncaughtException: logout is not defined
+ReferenceError: logout is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:58:37)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: ReferenceError: logout is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:58:37)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 17:48:19] [31merror[39m: uncaughtException: logout is not defined
+ReferenceError: logout is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:58:37)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: ReferenceError: logout is not defined
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:58:37)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 18:11:43] [31merror[39m: uncaughtException: Unexpected token '.'
+F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:27
+        role: user..role,
+                      ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:27
+        role: user..role,
+                      ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 18:12:51] [31merror[39m: uncaughtException: Cannot find module '../utils/logger'
+Require stack:
+- F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js
+- F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js
+- F:\Git-Company-Projects\MessMate_backend\server.js
+Error: Cannot find module '../utils/logger'
+Require stack:
+- F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js
+- F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js
+- F:\Git-Company-Projects\MessMate_backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:4:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+Stack: Error: Cannot find module '../utils/logger'
+Require stack:
+- F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js
+- F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js
+- F:\Git-Company-Projects\MessMate_backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:4:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+[2025-05-25 18:14:18] [31merror[39m: Login error: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:187:23)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[2025-05-25 18:19:13] [31merror[39m: uncaughtException: connectDB is not a function
+TypeError: connectDB is not a function
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: connectDB is not a function
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 18:19:28] [31merror[39m: uncaughtException: connectDB is not a function
+TypeError: connectDB is not a function
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: connectDB is not a function
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 18:19:45] [31merror[39m: uncaughtException: connectDB is not a function
+TypeError: connectDB is not a function
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: connectDB is not a function
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 18:19:53] [31merror[39m: uncaughtException: connectDB is not a function
+TypeError: connectDB is not a function
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: connectDB is not a function
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 18:19:56] [31merror[39m: uncaughtException: connectDB is not a function
+TypeError: connectDB is not a function
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: connectDB is not a function
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-25 18:26:29] [31merror[39m: uncaughtException: Unexpected token ':'
+F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:73
+    role: role,
+           ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:73
+    role: role,
+           ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 18:26:53] [31merror[39m: uncaughtException: Unexpected token ':'
+F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:73
+    role: role,
+           ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:73
+    role: role,
+           ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 18:40:08] [31merror[39m: uncaughtException: Invalid schema configuration: `` is not a valid type at path `type`. See https://bit.ly/mongoose-schematypes for a list of valid schema types.
+TypeError: Invalid schema configuration: `` is not a valid type at path `type`. See https://bit.ly/mongoose-schematypes for a list of valid schema types.
+    at Schema.add (F:\Git-Company-Projects\MessMate_backend\node_modules\mongoose\lib\schema.js:772:13)
+    at Schema.add (F:\Git-Company-Projects\MessMate_backend\node_modules\mongoose\lib\schema.js:810:12)
+    at new Schema (F:\Git-Company-Projects\MessMate_backend\node_modules\mongoose\lib\schema.js:145:10)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\models\User.model.js:3:20)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+Stack: TypeError: Invalid schema configuration: `` is not a valid type at path `type`. See https://bit.ly/mongoose-schematypes for a list of valid schema types.
+    at Schema.add (F:\Git-Company-Projects\MessMate_backend\node_modules\mongoose\lib\schema.js:772:13)
+    at Schema.add (F:\Git-Company-Projects\MessMate_backend\node_modules\mongoose\lib\schema.js:810:12)
+    at new Schema (F:\Git-Company-Projects\MessMate_backend\node_modules\mongoose\lib\schema.js:145:10)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\models\User.model.js:3:20)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+[2025-05-25 18:41:01] [31merror[39m: uncaughtException: Unexpected identifier 'name'
+F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:71
+    name: name,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'name'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:71
+    name: name,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'name'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 18:43:00] [31merror[39m: SyntaxError: Unexpected token 'p', "profile_ph"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (F:\Git-Company-Projects\MessMate_backend\node_modules\body-parser\lib\types\json.js:156:10)
+    at parse (F:\Git-Company-Projects\MessMate_backend\node_modules\body-parser\lib\types\json.js:71:15)
+    at F:\Git-Company-Projects\MessMate_backend\node_modules\body-parser\lib\read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (F:\Git-Company-Projects\MessMate_backend\node_modules\raw-body\index.js:238:16)
+    at done (F:\Git-Company-Projects\MessMate_backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (F:\Git-Company-Projects\MessMate_backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+[2025-05-25 18:43:41] [31merror[39m: SyntaxError: Expected property name or '}' in JSON at position 7 (line 2 column 5)
+    at JSON.parse (<anonymous>)
+    at parse (F:\Git-Company-Projects\MessMate_backend\node_modules\body-parser\lib\types\json.js:77:19)
+    at F:\Git-Company-Projects\MessMate_backend\node_modules\body-parser\lib\read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (F:\Git-Company-Projects\MessMate_backend\node_modules\raw-body\index.js:238:16)
+    at done (F:\Git-Company-Projects\MessMate_backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (F:\Git-Company-Projects\MessMate_backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[2025-05-25 18:58:09] [31merror[39m: uncaughtException: missing ) after argument list
+F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:101
+    res.status(201).json({ message: "User created successfully." }, token: token, );
+                                                                    ^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:101
+    res.status(201).json({ message: "User created successfully." }, token: token, );
+                                                                    ^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 18:58:22] [31merror[39m: uncaughtException: missing ) after argument list
+F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:101
+    res.status(201).json({ message: "User created successfully." }, token: token, user: {} );
+                                                                    ^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:101
+    res.status(201).json({ message: "User created successfully." }, token: token, user: {} );
+                                                                    ^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-25 19:01:56] [31merror[39m: uncaughtException: Unexpected identifier 'name'
+F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:83
+      name: name,
+      ^^^^
+
+SyntaxError: Unexpected identifier 'name'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:83
+      name: name,
+      ^^^^
+
+SyntaxError: Unexpected identifier 'name'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
