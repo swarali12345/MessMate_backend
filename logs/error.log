@@ -1609,3 +1609,94 @@ SyntaxError: Unexpected identifier 'name'
     at Module.require (node:internal/modules/cjs/loader:1335:12)
     at require (node:internal/modules/helpers:136:16)
     at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-26 23:00:49] [31merror[39m: uncaughtException: Identifier 'email' has already been declared
+F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:120
+  const { name, email, password } = req.body;
+                ^
+
+SyntaxError: Identifier 'email' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\auth.controller.js:120
+  const { name, email, password } = req.body;
+                ^
+
+SyntaxError: Identifier 'email' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:8:5)
+[2025-05-27 00:12:12] [31merror[39m: Failed to send email: Missing credentials for "PLAIN"
+Stack: Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection.login (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:454:38)
+    at F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:215:17)
+    at Object.onceWrapper (node:events:638:28)
+    at SMTPConnection.emit (node:events:524:28)
+    at SMTPConnection._actionEHLO (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:1371:14)
+    at SMTPConnection._processResponse (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at SMTPConnection._onSocketData (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+[2025-05-27 00:13:03] [31merror[39m: Failed to send email: Missing credentials for "PLAIN"
+Stack: Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection.login (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:454:38)
+    at F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:215:17)
+    at Object.onceWrapper (node:events:638:28)
+    at SMTPConnection.emit (node:events:524:28)
+    at SMTPConnection._actionEHLO (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:1371:14)
+    at SMTPConnection._processResponse (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at SMTPConnection._onSocketData (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+[2025-05-27 00:13:45] [31merror[39m: Failed to send email: Missing credentials for "PLAIN"
+Stack: Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection.login (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:454:38)
+    at F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:215:17)
+    at Object.onceWrapper (node:events:638:28)
+    at SMTPConnection.emit (node:events:524:28)
+    at SMTPConnection._actionEHLO (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:1371:14)
+    at SMTPConnection._processResponse (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at SMTPConnection._onSocketData (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+[2025-05-27 00:14:46] [31merror[39m: Failed to send email: Missing credentials for "PLAIN"
+Stack: Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection.login (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:454:38)
+    at F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:215:17)
+    at Object.onceWrapper (node:events:638:28)
+    at SMTPConnection.emit (node:events:524:28)
+    at SMTPConnection._actionEHLO (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:1371:14)
+    at SMTPConnection._processResponse (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at SMTPConnection._onSocketData (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+[2025-05-27 01:03:25] [31merror[39m: Failed to send email: Missing credentials for "PLAIN"
+Stack: Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection.login (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:454:38)
+    at F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:215:17)
+    at Object.onceWrapper (node:events:638:28)
+    at SMTPConnection.emit (node:events:524:28)
+    at SMTPConnection._actionEHLO (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:1371:14)
+    at SMTPConnection._processResponse (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at SMTPConnection._onSocketData (F:\Git-Company-Projects\MessMate_backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
