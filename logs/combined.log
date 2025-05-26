@@ -132,3 +132,77 @@
 [2025-05-25 19:03:44] [32minfo[39m: User registered: hie@gmail.com with role(s): student
 [2025-05-25 19:03:44] [32minfo[39m: ::1 - - [25/May/2025:13:33:44 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 347 "-" "PostmanRuntime/7.44.0"
 [2025-05-27 01:09:23] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 01:37:21] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 01:37:21] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 01:37:21] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 01:37:25] [32minfo[39m: Requested Email: anveshkhode7588@gmail.com
+[2025-05-27 01:37:25] [32minfo[39m: Found Account: anvesh
+[2025-05-27 01:37:25] [32minfo[39m: Generating a token
+[2025-05-27 01:37:25] [32minfo[39m: Generated a token
+[2025-05-27 01:37:25] [32minfo[39m: Token Generated: e5cb5d4dd0f5862515a9ab8c23eb3fe00ec338d6e9b56bae33ab5b8303a62825
+[2025-05-27 01:37:25] [32minfo[39m: Sending email to: anveshkhode7588@gmail.com
+[2025-05-27 01:37:25] [32minfo[39m: ::1 - - [26/May/2025:20:07:25 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 200 40 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:37:29] [32minfo[39m: Email sent successfully:
+[2025-05-27 01:38:54] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 01:38:54] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 01:38:54] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 01:40:12] [32minfo[39m: User anveshkhode7588@gmail.com logged in successfully
+[2025-05-27 01:40:12] [32minfo[39m: ::1 - - [26/May/2025:20:10:12 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 345 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:40:23] [32minfo[39m: ::1 - - [26/May/2025:20:10:23 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 200 44 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:40:28] [33mwarn[39m: Login failed: Invalid password for user anveshkhode7588@gmail.com
+[2025-05-27 01:40:28] [32minfo[39m: ::1 - - [26/May/2025:20:10:28 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:40:33] [32minfo[39m: User anveshkhode7588@gmail.com logged in successfully
+[2025-05-27 01:40:33] [32minfo[39m: ::1 - - [26/May/2025:20:10:33 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 345 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:40:39] [32minfo[39m: ::1 - - [26/May/2025:20:10:39 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 404 31 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:40:47] [32minfo[39m: Requested Email: anveshkhode7588@gmail.com
+[2025-05-27 01:40:47] [32minfo[39m: Found Account: anvesh
+[2025-05-27 01:40:47] [32minfo[39m: Generating a token
+[2025-05-27 01:40:47] [32minfo[39m: Generated a token
+[2025-05-27 01:40:47] [32minfo[39m: Token Generated: 8ab81979535b66435d00ec8e0ac8f84f04f32f236f4b292ec5db31abb77dbe1e
+[2025-05-27 01:40:47] [32minfo[39m: Sending email to: anveshkhode7588@gmail.com
+[2025-05-27 01:40:47] [32minfo[39m: ::1 - - [26/May/2025:20:10:47 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 200 40 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:40:50] [32minfo[39m: Email sent successfully:
+[2025-05-27 01:41:02] [32minfo[39m: ::1 - - [26/May/2025:20:11:02 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 200 44 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:41:06] [33mwarn[39m: Login failed: Invalid password for user anveshkhode7588@gmail.com
+[2025-05-27 01:41:06] [32minfo[39m: ::1 - - [26/May/2025:20:11:06 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:41:09] [32minfo[39m: User anveshkhode7588@gmail.com logged in successfully
+[2025-05-27 01:41:09] [32minfo[39m: ::1 - - [26/May/2025:20:11:09 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 345 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:44:04] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 01:44:04] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 01:44:04] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 01:46:46] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 01:46:46] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 01:46:46] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 01:47:01] [32minfo[39m: User anveshkhode7588@gmail.com logged in successfully
+[2025-05-27 01:47:01] [32minfo[39m: ::1 - - [26/May/2025:20:17:01 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 345 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:47:05] [33mwarn[39m: Login failed: Invalid password for user anveshkhode7588@gmail.com
+[2025-05-27 01:47:05] [32minfo[39m: ::1 - - [26/May/2025:20:17:05 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:47:10] [32minfo[39m: User anveshkhode7588@gmail.com logged in successfully
+[2025-05-27 01:47:10] [32minfo[39m: ::1 - - [26/May/2025:20:17:10 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 345 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:47:27] [32minfo[39m: Requested Email: anveshkhode7588@gmail.com
+[2025-05-27 01:47:27] [32minfo[39m: Found Account: anvesh
+[2025-05-27 01:47:27] [32minfo[39m: Generating a token
+[2025-05-27 01:47:27] [32minfo[39m: Generated a token
+[2025-05-27 01:47:27] [32minfo[39m: Token Generated: f3bc0e99e5e9e391fe109786d35df3625d811c7af4078078b14f43e55a91c128
+[2025-05-27 01:47:27] [32minfo[39m: Sending email to: anveshkhode7588@gmail.com
+[2025-05-27 01:47:27] [32minfo[39m: ::1 - - [26/May/2025:20:17:27 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 200 40 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:47:30] [32minfo[39m: Email sent successfully:
+[2025-05-27 01:48:41] [32minfo[39m: ::1 - - [26/May/2025:20:18:41 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 400 45 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:48:47] [32minfo[39m: ::1 - - [26/May/2025:20:18:47 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 200 44 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:48:53] [32minfo[39m: ::1 - - [26/May/2025:20:18:53 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 404 31 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:49:12] [33mwarn[39m: Login failed: Invalid password for user anveshkhode7588@gmail.com
+[2025-05-27 01:49:12] [32minfo[39m: ::1 - - [26/May/2025:20:19:12 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:49:18] [32minfo[39m: User anveshkhode7588@gmail.com logged in successfully
+[2025-05-27 01:49:18] [32minfo[39m: ::1 - - [26/May/2025:20:19:18 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 345 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:50:03] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 01:50:03] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 01:50:03] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 01:50:27] [32minfo[39m: Requested Email: anveshkhode7588@gmail.com
+[2025-05-27 01:50:27] [32minfo[39m: Found Account: anvesh
+[2025-05-27 01:50:27] [32minfo[39m: Generating a token
+[2025-05-27 01:50:27] [32minfo[39m: Generated a token
+[2025-05-27 01:50:27] [32minfo[39m: Token Generated: 7f3c9659b6eaa51d6a5f02b8d85b8e70661ed644b69ab2c35a99e68024d2473d
+[2025-05-27 01:50:27] [32minfo[39m: Sending email to: anveshkhode7588@gmail.com
+[2025-05-27 01:50:30] [32minfo[39m: Email sent successfully:
+[2025-05-27 01:50:30] [32minfo[39m: ::1 - - [26/May/2025:20:20:30 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 200 40 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:50:44] [32minfo[39m: ::1 - - [26/May/2025:20:20:44 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 200 44 "-" "PostmanRuntime/7.44.0"

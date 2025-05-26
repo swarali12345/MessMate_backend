@@ -1,11 +1,10 @@
 const nodemailer = require("nodemailer");
-// const { Resend } = require("resend");
 const logger = require("../utils/logger.util");
+// const { Resend } = require("resend");
 
-logger.info("BREVO_EMAIL: " + process.env.BREVO_EMAIL);
-logger.info("BREVO_SMTP_KEY exists: " + !!process.env.BREVO_SMTP_KEY);
-logger.info("MONGODB_URI exists: " + !!process.env.MONGODB_URI);
-logger.info("RESEND_API_KEY exists: " + !!process.env.RESEND_API_KEY);
+// logger.info("RESEND_API_KEY exists: " + !!process.env.RESEND_API_KEY);
+logger.info("GMAIL_EMAIL: " + process.env.GMAIL_EMAIL);
+logger.info("GMAIL_APP_PASS exists: " + !!process.env.GMAIL_APP_PASS);
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
@@ -14,6 +13,17 @@ const transporter = nodemailer.createTransport({
     pass: process.env.GMAIL_APP_PASS,
   },
 });
+
+async function sendMail(to, mailOptions) {
+  try {
+    logger.info(`Sending email to: ${to}`);
+    const info = await transporter.sendMail(mailOptions);
+    logger.info("Email sent successfully:", info);
+  } catch (error) {
+    logger.error("Failed to send email:", error); // This will show what’s going wrong
+    throw error; // Optional: re-throw to bubble up to 500
+  }
+}
 
 const sendResetPasswordEmail = async (to, token) => {
   const resetURL = `http://localhost:3000/auth/reset-password/${token}`;
@@ -30,18 +40,24 @@ const sendResetPasswordEmail = async (to, token) => {
     `,
   };
 
-  // Resend.sendMail({
-  //   mailOptions,
-  // });
-
-  try {
-    logger.info(`Sending email to: ${to}`);
-    const info = await transporter.sendMail(mailOptions);
-    logger.info("Email sent successfully:", info);
-  } catch (error) {
-    logger.error("Failed to send email:", error); // This will show what’s going wrong
-    throw error; // Optional: re-throw to bubble up to 500
-  }
+  await sendMail(to, mailOptions);
 };
 
-module.exports = { sendResetPasswordEmail };
+const sendResetPasswordAcknowledgementEmail = async (to) => {
+  const mailOptions = {
+    from: `"Messmate" <${process.env.BREVO_EMAIL}>`,
+    to: to,
+    subject: "Acknowledgement for Password Reset",
+    html: `
+      <h2>Password Reset Successful</h2>
+      <p>You requested a password reset. It was done.</p>
+    `,
+  };
+
+  await sendMail(to, mailOptions);
+};
+
+module.exports = {
+  sendResetPasswordEmail,
+  sendResetPasswordAcknowledgementEmail,
+};

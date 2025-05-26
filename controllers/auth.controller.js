@@ -2,7 +2,10 @@ const User = require("../models/User.model");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const logger = require("../utils/logger.util");
-const { sendResetPasswordEmail } = require("../utils/mailer.util");
+const {
+  sendResetPasswordEmail,
+  sendResetPasswordAcknowledgementEmail,
+} = require("../utils/mailer.util");
 
 const login = async (req, res) => {
   logger.debug("Received a request on /login.");
@@ -62,7 +65,9 @@ const register = async (req, res) => {
 
   if (!name || !email || !password) {
     logger.warn("Registration failed: Missing required fields.");
-    res.status(400).json({ message: `Name, email and password are required.` });
+    return res
+      .status(400)
+      .json({ message: `Name, email and password are required.` });
   }
 
   try {
@@ -111,13 +116,13 @@ const register = async (req, res) => {
   }
 };
 
-// TODO: Implementing
-const forgot_password = async (req, res) => {
+// DONE: Implemented Token Generation and Mail sending.
+const generate_token = async (req, res) => {
   logger.debug("Received a request on /forgot-password.");
   const { email } = req.body;
 
   if (!email) {
-    res.status(400).json({ message: `Email is required.` });
+    return res.status(400).json({ message: `Email is required.` });
   }
 
   try {
@@ -144,10 +149,51 @@ const forgot_password = async (req, res) => {
   }
 };
 
+// Implemented Resetting pasword functionality
+const reset_password = async (req, res) => {
+  const { token, newPassword } = req.body;
+
+  if (!token || !newPassword) {
+    return res
+      .status(400)
+      .json({ message: "Needs a token and a new Password." });
+  }
+
+  try {
+    const user = await User.findOne({ resetPasswordToken: token });
+
+    if (!user) {
+      return res.status(404).json({ message: "Cannot find user." });
+    }
+
+    if (Date.now() > new Date(user.resetPasswordExpires).getTime()) {
+      return res.status(401).json({ message: "Link expired." });
+    }
+
+    const isSamePassword = await bcrypt.compare(newPassword, user.password);
+    if (isSamePassword) {
+      return res
+        .status(400)
+        .json({ message: "New password must be different." });
+    }
+
+    const salt = await bcrypt.genSalt(10);
+    user.password = await bcrypt.hash(newPassword, salt);
+    user.resetPasswordToken = undefined;
+    user.resetPasswordExpires = undefined;
+    await user.save();
+
+    await sendResetPasswordAcknowledgementEmail(user.email);
+    res.status(200).json({ message: "Password updated successfully." });
+  } catch (error) {
+    res.status(500).json({ message: "Internal Server Error.", error: error });
+  }
+};
+
 // TODO: Blacklisting JWT Tokens (Not necessary)
 const logout = async (req, res) => {
   logger.debug("Received a request on /logout.");
   res.status(200).json({ message: "Logged out successfully." });
 };
 
-module.exports = { login, register, logout, forgot_password };
+module.exports = { login, register, logout, generate_token, reset_password };
