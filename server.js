@@ -1,10 +1,7 @@
-const dotenv = require("dotenv");
-// Load environment variables
-dotenv.config();
-
 const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
+const dotenv = require("dotenv");
 const morgan = require("morgan");
 const logger = require("./utils/logger.util.js");
 
@@ -12,7 +9,8 @@ const jsonwebtoken = require("jsonwebtoken");
 const authRoutes = require("./routes/auth.routes.js");
 const connectDB = require("./config/db.js");
 
-const mailer = require("./utils/mailer.util");
+// Load environment variables
+dotenv.config();
 
 connectDB();
 

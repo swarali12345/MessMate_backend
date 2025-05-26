@@ -2,7 +2,6 @@ const User = require("../models/User.model");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const logger = require("../utils/logger.util");
-const { sendResetPasswordEmail } = require("../utils/mailer.util");
 
 const login = async (req, res) => {
   logger.debug("Received a request on /login.");
@@ -111,36 +110,13 @@ const register = async (req, res) => {
   }
 };
 
-// TODO: Implementing
+// TODO: Not yet implemented
 const forgot_password = async (req, res) => {
   logger.debug("Received a request on /forgot-password.");
-  const { email } = req.body;
+  const { name, email, password } = req.body;
 
-  if (!email) {
-    res.status(400).json({ message: `Email is required.` });
-  }
-
-  try {
-    logger.info(`Requested Email: ${email}`);
-    const user = await User.findOne({ email: email });
-    if (!user) {
-      logger.info(`No user with Email: ${email}`);
-      res
-        .status(404)
-        .json({ message: `No account associated with mentioned e-mail ID.` });
-    }
-
-    logger.info(`Found Account: ${user.name}`);
-
-    const token = user.generate_resetPasswordToken();
-    await user.save();
-
-    logger.info(`Token Generated: ${token}`);
-    await sendResetPasswordEmail(user.email, token);
-
-    res.status(200).json({ message: "Password reset email sent." });
-  } catch (error) {
-    res.status(500).json({ message: "Internal server error.", error: error });
+  if (!name || !email || !password) {
+    res.status(400).json({ message: `Name, Email and password are required.` });
   }
 };
 
