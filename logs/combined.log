@@ -1,0 +1,208 @@
+[2025-05-25 18:06:37] [32minfo[39m: ::1 - - [25/May/2025:12:36:37 +0000] "GET / HTTP/1.1" 200 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-25 18:06:38] [32minfo[39m: ::1 - - [25/May/2025:12:36:38 +0000] "GET /favicon.ico HTTP/1.1" 404 30 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-25 18:10:13] [32minfo[39m: ::1 - - [25/May/2025:12:40:13 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 80 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:10:49] [32minfo[39m: ::1 - - [25/May/2025:12:40:49 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 148 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:11:32] [32minfo[39m: ::1 - - [25/May/2025:12:41:32 +0000] "POST /api/v1/auth/login HTTP/1.1" - - "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:12:13] [32minfo[39m: ::1 - - [25/May/2025:12:42:13 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 114 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:14:18] [31merror[39m: Login error: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (F:\Git-Company-Projects\MessMate_backend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:187:23)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[2025-05-25 18:14:18] [32minfo[39m: ::1 - - [25/May/2025:12:44:18 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 114 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:20:06] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:20:08] [32minfo[39m: ::1 - - [25/May/2025:12:50:08 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-25 18:20:15] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:20:19] [33mwarn[39m: Login failed: User not found for email root@root.com
+[2025-05-25 18:20:19] [32minfo[39m: ::1 - - [25/May/2025:12:50:19 +0000] "POST /api/v1/auth/login HTTP/1.1" 404 29 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:20:32] [32minfo[39m: ::1 - - [25/May/2025:12:50:32 +0000] "POST /api/v1/auth/logout HTTP/1.1" 404 30 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:20:37] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:20:51] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:20:54] [32minfo[39m: ::1 - - [25/May/2025:12:50:54 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-25 18:21:01] [32minfo[39m: ::1 - - [25/May/2025:12:51:01 +0000] "POST /api/v1/auth/logout HTTP/1.1" 200 38 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:23:09] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:23:45] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:23:57] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:24:05] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:24:10] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:25:12] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:31:12] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:34:05] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:34:08] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:34:13] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:34:49] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:35:39] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:35:44] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:35:49] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:35:52] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:36:19] [33mwarn[39m: Login failed: User not found for email root@gmail.com
+[2025-05-25 18:36:19] [32minfo[39m: ::1 - - [25/May/2025:13:06:19 +0000] "POST /api/v1/auth/login HTTP/1.1" 404 29 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:36:32] [33mwarn[39m: Login failed: Invalid password for user root@gmail.com
+[2025-05-25 18:36:32] [32minfo[39m: ::1 - - [25/May/2025:13:06:32 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:36:39] [33mwarn[39m: Login failed: Invalid password for user root@gmail.com
+[2025-05-25 18:36:39] [32minfo[39m: ::1 - - [25/May/2025:13:06:39 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:36:53] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:36:56] [33mwarn[39m: Login failed: Invalid password for user root@gmail.com
+[2025-05-25 18:36:56] [32minfo[39m: ::1 - - [25/May/2025:13:06:56 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:37:40] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:37:43] [32minfo[39m: User root@gmail.com logged in successfully
+[2025-05-25 18:37:43] [32minfo[39m: ::1 - - [25/May/2025:13:07:43 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 332 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:40:38] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:41:04] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:41:23] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:43:00] [31merror[39m: SyntaxError: Unexpected token 'p', "profile_ph"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (F:\Git-Company-Projects\MessMate_backend\node_modules\body-parser\lib\types\json.js:156:10)
+    at parse (F:\Git-Company-Projects\MessMate_backend\node_modules\body-parser\lib\types\json.js:71:15)
+    at F:\Git-Company-Projects\MessMate_backend\node_modules\body-parser\lib\read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (F:\Git-Company-Projects\MessMate_backend\node_modules\raw-body\index.js:238:16)
+    at done (F:\Git-Company-Projects\MessMate_backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (F:\Git-Company-Projects\MessMate_backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+[2025-05-25 18:43:41] [31merror[39m: SyntaxError: Expected property name or '}' in JSON at position 7 (line 2 column 5)
+    at JSON.parse (<anonymous>)
+    at parse (F:\Git-Company-Projects\MessMate_backend\node_modules\body-parser\lib\types\json.js:77:19)
+    at F:\Git-Company-Projects\MessMate_backend\node_modules\body-parser\lib\read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (F:\Git-Company-Projects\MessMate_backend\node_modules\raw-body\index.js:238:16)
+    at done (F:\Git-Company-Projects\MessMate_backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (F:\Git-Company-Projects\MessMate_backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[2025-05-25 18:44:00] [32minfo[39m: ::1 - - [25/May/2025:13:14:00 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 1282 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:44:26] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:44:59] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:45:35] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:45:52] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:46:14] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:46:18] [32minfo[39m: /register error: ReferenceError: user is not defined
+[2025-05-25 18:46:18] [32minfo[39m: ::1 - - [25/May/2025:13:16:18 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 42 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:46:46] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:47:17] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:47:53] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:47:59] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:48:08] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:48:27] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:48:32] [32minfo[39m: User anveshkhode7588@gmail.com : root created successfully as admin
+[2025-05-25 18:48:32] [32minfo[39m: /register error: TypeError: User.createOne is not a function
+[2025-05-25 18:48:32] [32minfo[39m: ::1 - - [25/May/2025:13:18:32 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 42 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:49:02] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:49:21] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:49:33] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:49:44] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:54:12] [32minfo[39m: User anveshkhode7588@gmail.com : root created successfully as admin
+[2025-05-25 18:54:12] [32minfo[39m: /register error: TypeError: User.createOne is not a function
+[2025-05-25 18:54:12] [32minfo[39m: ::1 - - [25/May/2025:13:24:12 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 42 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:55:13] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:55:18] [32minfo[39m: /register error: TypeError: User.createOne is not a function
+[2025-05-25 18:55:18] [32minfo[39m: ::1 - - [25/May/2025:13:25:18 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 42 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 18:55:49] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:55:58] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:56:04] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:56:24] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:57:23] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:57:34] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:57:43] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:58:34] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:58:46] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:59:24] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:59:45] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:59:48] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 18:59:56] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 19:00:08] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 19:01:08] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 19:01:16] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 19:01:18] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 19:01:28] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 19:01:32] [32minfo[39m: Registration error: ReferenceError: profile_photo is not defined
+[2025-05-25 19:01:32] [32minfo[39m: ::1 - - [25/May/2025:13:31:32 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 42 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 19:01:41] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 19:02:03] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 19:02:07] [32minfo[39m: User registered: undefined with role(s): undefined
+[2025-05-25 19:02:07] [32minfo[39m: Registration error: ReferenceError: token is not defined
+[2025-05-25 19:02:07] [32minfo[39m: ::1 - - [25/May/2025:13:32:07 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 42 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 19:02:18] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 19:02:20] [33mwarn[39m: User already exists with given credentials.
+[2025-05-25 19:02:20] [32minfo[39m: ::1 - - [25/May/2025:13:32:20 +0000] "POST /api/v1/auth/register HTTP/1.1" 400 57 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 19:02:41] [32minfo[39m: User registered: undefined with role(s): undefined
+[2025-05-25 19:02:41] [32minfo[39m: ::1 - - [25/May/2025:13:32:41 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 192 "-" "PostmanRuntime/7.44.0"
+[2025-05-25 19:03:34] [32minfo[39m: MongoDB: Connected to server
+[2025-05-25 19:03:44] [32minfo[39m: User registered: hie@gmail.com with role(s): student
+[2025-05-25 19:03:44] [32minfo[39m: ::1 - - [25/May/2025:13:33:44 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 347 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:09:23] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 01:37:21] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 01:37:21] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 01:37:21] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 01:37:25] [32minfo[39m: Requested Email: anveshkhode7588@gmail.com
+[2025-05-27 01:37:25] [32minfo[39m: Found Account: anvesh
+[2025-05-27 01:37:25] [32minfo[39m: Generating a token
+[2025-05-27 01:37:25] [32minfo[39m: Generated a token
+[2025-05-27 01:37:25] [32minfo[39m: Token Generated: e5cb5d4dd0f5862515a9ab8c23eb3fe00ec338d6e9b56bae33ab5b8303a62825
+[2025-05-27 01:37:25] [32minfo[39m: Sending email to: anveshkhode7588@gmail.com
+[2025-05-27 01:37:25] [32minfo[39m: ::1 - - [26/May/2025:20:07:25 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 200 40 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:37:29] [32minfo[39m: Email sent successfully:
+[2025-05-27 01:38:54] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 01:38:54] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 01:38:54] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 01:40:12] [32minfo[39m: User anveshkhode7588@gmail.com logged in successfully
+[2025-05-27 01:40:12] [32minfo[39m: ::1 - - [26/May/2025:20:10:12 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 345 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:40:23] [32minfo[39m: ::1 - - [26/May/2025:20:10:23 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 200 44 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:40:28] [33mwarn[39m: Login failed: Invalid password for user anveshkhode7588@gmail.com
+[2025-05-27 01:40:28] [32minfo[39m: ::1 - - [26/May/2025:20:10:28 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:40:33] [32minfo[39m: User anveshkhode7588@gmail.com logged in successfully
+[2025-05-27 01:40:33] [32minfo[39m: ::1 - - [26/May/2025:20:10:33 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 345 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:40:39] [32minfo[39m: ::1 - - [26/May/2025:20:10:39 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 404 31 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:40:47] [32minfo[39m: Requested Email: anveshkhode7588@gmail.com
+[2025-05-27 01:40:47] [32minfo[39m: Found Account: anvesh
+[2025-05-27 01:40:47] [32minfo[39m: Generating a token
+[2025-05-27 01:40:47] [32minfo[39m: Generated a token
+[2025-05-27 01:40:47] [32minfo[39m: Token Generated: 8ab81979535b66435d00ec8e0ac8f84f04f32f236f4b292ec5db31abb77dbe1e
+[2025-05-27 01:40:47] [32minfo[39m: Sending email to: anveshkhode7588@gmail.com
+[2025-05-27 01:40:47] [32minfo[39m: ::1 - - [26/May/2025:20:10:47 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 200 40 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:40:50] [32minfo[39m: Email sent successfully:
+[2025-05-27 01:41:02] [32minfo[39m: ::1 - - [26/May/2025:20:11:02 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 200 44 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:41:06] [33mwarn[39m: Login failed: Invalid password for user anveshkhode7588@gmail.com
+[2025-05-27 01:41:06] [32minfo[39m: ::1 - - [26/May/2025:20:11:06 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:41:09] [32minfo[39m: User anveshkhode7588@gmail.com logged in successfully
+[2025-05-27 01:41:09] [32minfo[39m: ::1 - - [26/May/2025:20:11:09 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 345 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:44:04] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 01:44:04] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 01:44:04] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 01:46:46] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 01:46:46] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 01:46:46] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 01:47:01] [32minfo[39m: User anveshkhode7588@gmail.com logged in successfully
+[2025-05-27 01:47:01] [32minfo[39m: ::1 - - [26/May/2025:20:17:01 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 345 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:47:05] [33mwarn[39m: Login failed: Invalid password for user anveshkhode7588@gmail.com
+[2025-05-27 01:47:05] [32minfo[39m: ::1 - - [26/May/2025:20:17:05 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:47:10] [32minfo[39m: User anveshkhode7588@gmail.com logged in successfully
+[2025-05-27 01:47:10] [32minfo[39m: ::1 - - [26/May/2025:20:17:10 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 345 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:47:27] [32minfo[39m: Requested Email: anveshkhode7588@gmail.com
+[2025-05-27 01:47:27] [32minfo[39m: Found Account: anvesh
+[2025-05-27 01:47:27] [32minfo[39m: Generating a token
+[2025-05-27 01:47:27] [32minfo[39m: Generated a token
+[2025-05-27 01:47:27] [32minfo[39m: Token Generated: f3bc0e99e5e9e391fe109786d35df3625d811c7af4078078b14f43e55a91c128
+[2025-05-27 01:47:27] [32minfo[39m: Sending email to: anveshkhode7588@gmail.com
+[2025-05-27 01:47:27] [32minfo[39m: ::1 - - [26/May/2025:20:17:27 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 200 40 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:47:30] [32minfo[39m: Email sent successfully:
+[2025-05-27 01:48:41] [32minfo[39m: ::1 - - [26/May/2025:20:18:41 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 400 45 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:48:47] [32minfo[39m: ::1 - - [26/May/2025:20:18:47 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 200 44 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:48:53] [32minfo[39m: ::1 - - [26/May/2025:20:18:53 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 404 31 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:49:12] [33mwarn[39m: Login failed: Invalid password for user anveshkhode7588@gmail.com
+[2025-05-27 01:49:12] [32minfo[39m: ::1 - - [26/May/2025:20:19:12 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:49:18] [32minfo[39m: User anveshkhode7588@gmail.com logged in successfully
+[2025-05-27 01:49:18] [32minfo[39m: ::1 - - [26/May/2025:20:19:18 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 345 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:50:03] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 01:50:03] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 01:50:03] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 01:50:27] [32minfo[39m: Requested Email: anveshkhode7588@gmail.com
+[2025-05-27 01:50:27] [32minfo[39m: Found Account: anvesh
+[2025-05-27 01:50:27] [32minfo[39m: Generating a token
+[2025-05-27 01:50:27] [32minfo[39m: Generated a token
+[2025-05-27 01:50:27] [32minfo[39m: Token Generated: 7f3c9659b6eaa51d6a5f02b8d85b8e70661ed644b69ab2c35a99e68024d2473d
+[2025-05-27 01:50:27] [32minfo[39m: Sending email to: anveshkhode7588@gmail.com
+[2025-05-27 01:50:30] [32minfo[39m: Email sent successfully:
+[2025-05-27 01:50:30] [32minfo[39m: ::1 - - [26/May/2025:20:20:30 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 200 40 "-" "PostmanRuntime/7.44.0"
+[2025-05-27 01:50:44] [32minfo[39m: ::1 - - [26/May/2025:20:20:44 +0000] "POST /api/v1/auth/reset-password HTTP/1.1" 200 44 "-" "PostmanRuntime/7.44.0"
