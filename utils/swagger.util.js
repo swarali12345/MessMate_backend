@@ -1,5 +1,24 @@
 const swaggerJsdoc = require("swagger-jsdoc");
 
+const serverList =
+  process.env.ENVIRONMENT === "LOCAL"
+    ? [
+        {
+          url:
+            "http://localhost:" +
+            process.env.BACKEND_PORT +
+            process.env.API_VERSION,
+        },
+        {
+          url: process.env.BACKEND_URI + process.env.API_VERSION,
+        },
+      ]
+    : [
+        {
+          url: process.env.BACKEND_URI + process.env.API_VERSION,
+        },
+      ];
+
 const swaggerDefinition = {
   openapi: "3.1.0",
   info: {
@@ -7,17 +26,7 @@ const swaggerDefinition = {
     version: "1.0.0",
     description: "API documentation for MessMate backend",
   },
-  servers: [
-    {
-      url: process.env.BACKEND_URI + process.env.API_VERSION,
-    },
-    {
-      url:
-        "http://localhost:" +
-        process.env.BACKEND_PORT +
-        process.env.API_VERSION,
-    },
-  ],
+  servers: serverList,
   components: {
     securitySchemes: {
       bearerAuth: {

@@ -13,7 +13,9 @@ const login = async (req, res) => {
 
   if (!email || !password) {
     logger.warn("Login failed: Missing email or password");
-    res.status(400).json({ message: `Email and password are required.` });
+    return res
+      .status(400)
+      .json({ message: `Email and password are required.` });
   }
 
   try {
@@ -40,7 +42,7 @@ const login = async (req, res) => {
     );
 
     logger.info(`User ${user.email} logged in successfully`);
-    res.status(200).json({
+    return res.status(200).json({
       message: `Login successful.`,
       token,
       user: {
@@ -52,7 +54,7 @@ const login = async (req, res) => {
     });
   } catch (error) {
     logger.error(`Login error: ${error.stack}`);
-    res.status(500).json({
+    return res.status(500).json({
       message: `Server Error.`,
       error: `${error}`,
     });
@@ -100,7 +102,7 @@ const register = async (req, res) => {
       { expiresIn: "1h" }
     );
 
-    res.status(201).json({
+    return res.status(201).json({
       message: "User registered successfully.",
       token: jwtToken,
       user: {
@@ -112,7 +114,7 @@ const register = async (req, res) => {
     });
   } catch (error) {
     logger.info(`Registration error: ${error}`);
-    res.status(500).json({ message: "An error occured.", error: error });
+    return res.status(500).json({ message: "An error occured.", error: error });
   }
 };
 
@@ -130,7 +132,7 @@ const generate_token = async (req, res) => {
     const user = await User.findOne({ email: email });
     if (!user) {
       logger.info(`No user with Email: ${email}`);
-      res
+      return res
         .status(404)
         .json({ message: `No account associated with mentioned e-mail ID.` });
     }
@@ -143,9 +145,11 @@ const generate_token = async (req, res) => {
     logger.info(`Token Generated: ${token}`);
     await sendResetPasswordEmail(user.email, token);
 
-    res.status(200).json({ message: "Password reset email sent." });
+    return res.status(200).json({ message: "Password reset email sent." });
   } catch (error) {
-    res.status(500).json({ message: "Internal server error.", error: error });
+    return res
+      .status(500)
+      .json({ message: "Internal server error.", error: error });
   }
 };
 
@@ -184,16 +188,18 @@ const reset_password = async (req, res) => {
     await user.save();
 
     await sendResetPasswordAcknowledgementEmail(user.email);
-    res.status(200).json({ message: "Password updated successfully." });
+    return res.status(200).json({ message: "Password updated successfully." });
   } catch (error) {
-    res.status(500).json({ message: "Internal Server Error.", error: error });
+    return res
+      .status(500)
+      .json({ message: "Internal Server Error.", error: error });
   }
 };
 
 // TODO: Blacklisting JWT Tokens (Not necessary)
 const logout = async (req, res) => {
   logger.debug("Received a request on /logout.");
-  res.status(200).json({ message: "Logged out successfully." });
+  return res.status(200).json({ message: "Logged out successfully." });
 };
 
 module.exports = {
