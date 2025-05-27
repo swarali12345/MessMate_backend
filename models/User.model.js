@@ -30,6 +30,7 @@ const UserSchema = new mongoose.Schema(
         "receptionist",
         "student",
         "test",
+        "user",
       ],
       default: ["student"],
     },

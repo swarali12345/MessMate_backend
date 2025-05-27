@@ -1,5 +1,6 @@
 const express = require("express");
 const authMiddleware = require("../middlewares/auth.middleware");
+// const checkBlacklistedToken = require("../middlewares/checkBlacklistedToken.middleware");
 const router = express.Router();
 
 const {
@@ -8,8 +9,6 @@ const {
   logout,
   generate_token,
   reset_password,
-  getProfile,
-  updatePassword,
 } = require("../controllers/auth.controller.js");
 
 /**

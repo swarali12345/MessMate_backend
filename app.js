@@ -38,6 +38,7 @@ app.use(
       process.env.FRONTEND_URI,
       process.env.BACKEND_URI,
       "http://localhost:5041",
+      "http://localhost:5173",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,

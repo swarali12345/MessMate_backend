@@ -113,12 +113,11 @@ const register = async (req, res) => {
       },
     });
   } catch (error) {
-    logger.info(`Registration error: ${error}`);
+    logger.error(`Registration error: ${error}`);
     return res.status(500).json({ message: "An error occured.", error: error });
   }
 };
 
-// DONE: Implemented Token Generation and Mail sending.
 const generate_token = async (req, res) => {
   logger.debug("Received a request on /forgot-password.");
   const { email } = req.body;
@@ -147,15 +146,17 @@ const generate_token = async (req, res) => {
 
     return res.status(200).json({ message: "Password reset email sent." });
   } catch (error) {
+    logger.error("Error in /forgot-password: ", error);
     return res
       .status(500)
       .json({ message: "Internal server error.", error: error });
   }
 };
 
-// Implemented Resetting pasword functionality
 const reset_password = async (req, res) => {
-  const { token, newPassword } = req.body;
+  logger.debug("Received a request on /reset-password.");
+  const token = req.body.token || req.query.token || req.params.token;
+  const { newPassword } = req.body;
 
   if (!token || !newPassword) {
     return res
@@ -167,18 +168,20 @@ const reset_password = async (req, res) => {
     const user = await User.findOne({ resetPasswordToken: token });
 
     if (!user) {
-      return res.status(404).json({ message: "Cannot find user." });
+      return res
+        .status(404)
+        .json({ message: "Cannot find user, Invalid or expired token." });
     }
 
     if (Date.now() > new Date(user.resetPasswordExpires).getTime()) {
-      return res.status(401).json({ message: "Link expired." });
+      return res.status(401).json({ message: "Reset link has expired." });
     }
 
     const isSamePassword = await bcrypt.compare(newPassword, user.password);
     if (isSamePassword) {
       return res
         .status(400)
-        .json({ message: "New password must be different." });
+        .json({ message: "New password must be different from old password." });
     }
 
     const salt = await bcrypt.genSalt(10);
@@ -190,6 +193,7 @@ const reset_password = async (req, res) => {
     await sendResetPasswordAcknowledgementEmail(user.email);
     return res.status(200).json({ message: "Password updated successfully." });
   } catch (error) {
+    logger.error("Error in /reset-password: ", error);
     return res
       .status(500)
       .json({ message: "Internal Server Error.", error: error });
@@ -199,7 +203,36 @@ const reset_password = async (req, res) => {
 // TODO: Blacklisting JWT Tokens (Not necessary)
 const logout = async (req, res) => {
   logger.debug("Received a request on /logout.");
-  return res.status(200).json({ message: "Logged out successfully." });
+
+  try {
+    const authHeader = req.headers.authorizaiton;
+
+    if (!authHeader) {
+      return res.status(401).json({ message: "Ho authorization header sent." });
+    }
+
+    const token = authHeader.split(" ")[1];
+    if (!token) {
+      return res.status(401).json({ message: "No token found in the header." });
+    }
+
+    const decoded = jwt.decode(token);
+    if (!decoded || !decoded.exp) {
+      return res.status(400).json({ message: "Invalid token" });
+    }
+
+    const now = Math.floor(Date.now() / 1000);
+    const ttl = decoded.exp - now;
+    if (ttl > 0) {
+      await redis.set(`bl_${token}`, "1", "EX", ttl);
+    }
+
+    return res.status(200).json({ message: "Logged out successfully." });
+  } catch (error) {
+    console.error("Logout error:", error);
+    logger.error("Error in /logout: ", error);
+    return res.status(500).json({ message: "Internal Server Error." });
+  }
 };
 
 module.exports = {

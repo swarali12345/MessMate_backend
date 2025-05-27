@@ -26,7 +26,11 @@ async function sendMail(to, mailOptions) {
 }
 
 const sendResetPasswordEmail = async (to, token) => {
-  const resetURL = `http://localhost:3000/auth/reset-password/${token}`;
+  const FRONTEND_URI =
+    process.env.ENVIRONMENT === "LOCAL"
+      ? "http://localhost:3000"
+      : process.env.FRONTEND_URI;
+  const resetURL = FRONTEND_URI + `/auth/reset-password/${token}`;
 
   const mailOptions = {
     from: `"Messmate" <${process.env.BREVO_EMAIL}>`,
