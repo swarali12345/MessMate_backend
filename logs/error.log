@@ -1846,3 +1846,39 @@ Stack: ReferenceError: Cannot access 'app' before initialization
     at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
     at node:internal/main/run_main_module:36:49
+[2025-05-27 13:25:20] [31merror[39m: uncaughtException: process.env.ENVIRONMENT is not a function
+TypeError: process.env.ENVIRONMENT is not a function
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:29:44)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+Stack: TypeError: process.env.ENVIRONMENT is not a function
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:29:44)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+[2025-05-27 13:35:17] [31merror[39m: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:81:17)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Stack: TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:81:17)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)

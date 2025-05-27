@@ -257,3 +257,99 @@
 [2025-05-27 11:19:57] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
 [2025-05-27 11:19:57] [32minfo[39m: GMAIL_APP_PASS exists: true
 [2025-05-27 11:19:58] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:24:19] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:24:19] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:24:19] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:25:20] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:25:20] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:26:01] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:26:01] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:26:02] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:26:14] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:26:14] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:26:15] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:26:23] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:26:23] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:26:24] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:26:45] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:26:45] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:26:46] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:26:48] [32minfo[39m: ::1 - - [27/May/2025:07:56:48 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 13:28:29] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:28:29] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:28:30] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:28:35] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:28:35] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:28:35] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:29:13] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:29:13] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:29:14] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:30:26] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:30:26] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:30:27] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:30:53] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:30:53] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:30:53] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:30:59] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:30:59] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:31:00] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:31:28] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:31:28] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:31:29] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:31:32] [32minfo[39m: ::1 - - [27/May/2025:08:01:32 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 13:31:58] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:31:58] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:31:59] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:32:00] [32minfo[39m: ::1 - - [27/May/2025:08:02:00 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 13:32:46] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:32:46] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:32:46] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:32:58] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:32:58] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:32:59] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:33:15] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:33:15] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:33:16] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:33:21] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:33:21] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:33:22] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:34:11] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:34:11] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:34:12] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:34:25] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:34:25] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:34:26] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:35:16] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:35:16] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:35:17] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:36:03] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:36:03] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:36:04] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:36:06] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:36:06] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:36:06] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:36:32] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:36:32] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:36:33] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:36:33] [32minfo[39m: Server running on: http://localhost:50415041
+[2025-05-27 13:36:33] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/docs
+[2025-05-27 13:36:34] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:36:34] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:36:35] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:36:35] [32minfo[39m: Server running on: http://localhost:50415041
+[2025-05-27 13:36:35] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/docs
+[2025-05-27 13:36:38] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:36:38] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:36:39] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:36:39] [32minfo[39m: Server running on: http://localhost:50415041
+[2025-05-27 13:36:39] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/docs
+[2025-05-27 13:36:46] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:36:46] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:36:46] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:36:46] [32minfo[39m: Server running on: http://localhost:50415041
+[2025-05-27 13:36:46] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/docs
+[2025-05-27 13:36:58] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 13:36:58] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 13:36:59] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 13:36:59] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 13:36:59] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/docs

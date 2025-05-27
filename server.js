@@ -8,7 +8,7 @@ const cors = require("cors");
 const helmet = require("helmet");
 const morgan = require("morgan");
 const swaggerUi = require("swagger-ui-express");
-const swaggerSpec = require("./utils/swagger.util.js"); // or wherever you defined it
+const swaggerSpec = require("./utils/swagger.util.js");
 const jsonwebtoken = require("jsonwebtoken");
 
 // utils
@@ -20,13 +20,21 @@ const connectDB = require("./config/db.js");
 
 // routes
 const authRoutes = require("./routes/auth.routes.js");
-const authRoutes = require("./routes/orders.routes.js");
+const menuRoutes = require("./routes/menu.routes.js");
+// const orderRoutes = require("./routes/orders.routes.js");
 
 // Initialize the app
 const app = express();
 const PORT = process.env.BACKEND_PORT || 3001;
-const backendLink = `${process.env.BACKEND_URI}`;
-const frontendLink = `${process.env.FRONTEND_URI}`;
+let backendLink =
+  process.env.ENVIRONMENT === "LOCAL"
+    ? `http://localhost:`
+    : `${process.env.BACKEND_URI}`;
+const frontendLink =
+  process.env.ENVIRONMENT === "LOCAL"
+    ? `http://localhost:` + PORT
+    : `${process.env.FRONTEND_URI}`;
+
 const apiVersion = "/api/v1";
 
 connectDB();
@@ -53,7 +61,8 @@ app.use((err, req, res, next) => {
 
 // Routes
 app.use(apiVersion + "/auth", authRoutes);
-app.use(apiVersion + "/orders", orderRoutes);
+app.use(apiVersion + "/menu", menuRoutes);
+// app.use(apiVersion + "/orders", orderRoutes);
 
 // Home Route
 app.get("/", (req, res) => {
@@ -68,6 +77,13 @@ app.use((req, res) => {
 
 // Starting the server
 app.listen(PORT, () => {
-  console.log(`Server running on: ` + backendLink + `${PORT}`);
-  console.log(`Swagger docs at: ` + frontendLink + ``);
+  if (process.env.ENVIRONMENT === "LOCAL") {
+    backendLink += PORT;
+  }
+  const backendString = `Server running on: ` + backendLink;
+  const swaggerString =
+    `Swagger docs at: ` + backendLink + apiVersion + `/docs`;
+
+  logger.info(backendString);
+  logger.info(swaggerString);
 });

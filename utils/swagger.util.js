@@ -1,5 +1,7 @@
+const swaggerJsdoc = require("swagger-jsdoc");
+
 const swaggerDefinition = {
-  openapi: "3.0.0",
+  openapi: "3.1.0",
   info: {
     title: "MessMate Internal API",
     version: "1.0.0",
@@ -23,8 +25,10 @@ const swaggerDefinition = {
 
 const options = {
   swaggerDefinition,
-  // Path to the API docs (your routes files with swagger comments)
-  apis: ["./routes/*.js"], // <-- adjust path if your route files are in a different folder
+  // Path to the API route docs
+  apis: ["./routes/*.js"],
 };
 
 const swaggerSpec = swaggerJsdoc(options);
+
+module.exports = swaggerSpec;
