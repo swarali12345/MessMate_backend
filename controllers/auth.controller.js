@@ -83,11 +83,11 @@ const register = async (req, res) => {
     const hashedPassword = await bcrypt.hash(password, salt);
 
     const newUser = await User.create({
-      profile_photo: profile_photo,
+      profile_photo: profile_photo || "NULL",
       name: name,
       email: email,
       password: hashedPassword,
-      role: role || ["student"],
+      role: role || ["user"],
     });
 
     logger.info(

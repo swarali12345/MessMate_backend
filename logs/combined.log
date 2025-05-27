@@ -502,3 +502,169 @@
 [2025-05-27 14:36:49] [32minfo[39m: MongoDB: Connected to server
 [2025-05-27 14:36:49] [32minfo[39m: Server running on: http://localhost:5041
 [2025-05-27 14:36:49] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 14:51:46] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 14:51:46] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 14:51:46] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 14:51:46] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 14:51:46] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 14:59:33] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 14:59:33] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 14:59:33] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 14:59:33] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 14:59:33] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 14:59:34] [32minfo[39m: Generating a token
+[2025-05-27 14:59:34] [32minfo[39m: Generated a token
+[2025-05-27 15:00:03] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:00:03] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:00:03] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:00:03] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 15:00:03] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 15:00:04] [32minfo[39m: Generating a token
+[2025-05-27 15:00:04] [32minfo[39m: Generated a token
+[2025-05-27 15:01:42] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:01:42] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:01:42] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:01:42] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 15:01:42] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 15:01:43] [32minfo[39m: Generating a token
+[2025-05-27 15:01:43] [32minfo[39m: Generated a token
+[2025-05-27 15:03:41] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:03:41] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:03:41] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:03:41] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 15:03:41] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 15:03:42] [32minfo[39m: Generating a token
+[2025-05-27 15:03:42] [32minfo[39m: Generated a token
+[2025-05-27 15:04:52] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:04:52] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:04:52] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:04:52] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 15:04:52] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 15:04:56] [32minfo[39m: User registered: testuser@example.com with role(s): test
+[2025-05-27 15:04:56] [32minfo[39m: ::ffff:127.0.0.1 - - [27/May/2025:09:34:56 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 353 "-" "-"
+[2025-05-27 15:04:56] [32minfo[39m: User testuser@example.com logged in successfully
+[2025-05-27 15:04:56] [32minfo[39m: ::ffff:127.0.0.1 - - [27/May/2025:09:34:56 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 341 "-" "-"
+[2025-05-27 15:04:56] [33mwarn[39m: Login failed: Invalid password for user testuser@example.com
+[2025-05-27 15:04:56] [32minfo[39m: ::ffff:127.0.0.1 - - [27/May/2025:09:34:56 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "-"
+[2025-05-27 15:04:56] [32minfo[39m: Requested Email: testuser@example.com
+[2025-05-27 15:04:56] [32minfo[39m: Found Account: Test User
+[2025-05-27 15:04:56] [32minfo[39m: Generating a token
+[2025-05-27 15:04:56] [32minfo[39m: Generated a token
+[2025-05-27 15:04:56] [32minfo[39m: Token Generated: 9e2e964dd0404f579241a236b22f0ac3aa74f835f481df72220fac4416c43567
+[2025-05-27 15:04:56] [32minfo[39m: Sending email to: testuser@example.com
+[2025-05-27 15:05:00] [32minfo[39m: Email sent successfully:
+[2025-05-27 15:05:00] [32minfo[39m: ::ffff:127.0.0.1 - - [27/May/2025:09:35:00 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 200 40 "-" "-"
+[2025-05-27 15:05:00] [32minfo[39m: Requested Email: unknown@example.com
+[2025-05-27 15:05:00] [32minfo[39m: No user with Email: unknown@example.com
+[2025-05-27 15:05:00] [32minfo[39m: ::ffff:127.0.0.1 - - [27/May/2025:09:35:00 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 500 61 "-" "-"
+[2025-05-27 15:05:00] [32minfo[39m: Generating a token
+[2025-05-27 15:05:00] [32minfo[39m: Generated a token
+[2025-05-27 15:05:19] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:05:19] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:05:20] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:05:20] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 15:05:20] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 15:05:23] [32minfo[39m: User registered: testuser@example.com with role(s): test
+[2025-05-27 15:05:23] [32minfo[39m: ::ffff:127.0.0.1 - - [27/May/2025:09:35:23 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 353 "-" "-"
+[2025-05-27 15:05:23] [32minfo[39m: User testuser@example.com logged in successfully
+[2025-05-27 15:05:23] [32minfo[39m: ::ffff:127.0.0.1 - - [27/May/2025:09:35:23 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 341 "-" "-"
+[2025-05-27 15:05:23] [33mwarn[39m: Login failed: Invalid password for user testuser@example.com
+[2025-05-27 15:05:24] [32minfo[39m: ::ffff:127.0.0.1 - - [27/May/2025:09:35:24 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 41 "-" "-"
+[2025-05-27 15:05:24] [32minfo[39m: Requested Email: testuser@example.com
+[2025-05-27 15:05:24] [32minfo[39m: Found Account: Test User
+[2025-05-27 15:05:24] [32minfo[39m: Generating a token
+[2025-05-27 15:05:24] [32minfo[39m: Generated a token
+[2025-05-27 15:05:24] [32minfo[39m: Token Generated: e359faebf6312a923f69464621f8be4d558623fb33eaf18671dcddc887e8b64a
+[2025-05-27 15:05:24] [32minfo[39m: Sending email to: testuser@example.com
+[2025-05-27 15:05:26] [32minfo[39m: Email sent successfully:
+[2025-05-27 15:05:26] [32minfo[39m: ::ffff:127.0.0.1 - - [27/May/2025:09:35:26 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 200 40 "-" "-"
+[2025-05-27 15:05:26] [32minfo[39m: Requested Email: unknown@example.com
+[2025-05-27 15:05:27] [32minfo[39m: No user with Email: unknown@example.com
+[2025-05-27 15:05:27] [32minfo[39m: ::ffff:127.0.0.1 - - [27/May/2025:09:35:27 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 500 61 "-" "-"
+[2025-05-27 15:05:27] [32minfo[39m: Generating a token
+[2025-05-27 15:05:27] [32minfo[39m: Generated a token
+[2025-05-27 15:09:37] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:09:37] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:09:37] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:09:57] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:09:57] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:09:58] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:10:20] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:10:20] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:10:21] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:10:22] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:10:22] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:10:23] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:10:45] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:10:45] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:10:45] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:10:51] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:10:51] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:10:51] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:11:07] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:11:07] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:11:07] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:12:11] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:12:11] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:12:11] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:12:32] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:12:32] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:12:32] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:12:50] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:12:50] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:12:50] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:13:06] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:13:06] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:13:06] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:13:09] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:13:09] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:13:09] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:13:21] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:13:21] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:13:21] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:13:21] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 15:13:21] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 15:13:28] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:13:28] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:13:28] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:13:28] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 15:13:28] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 15:13:35] [32minfo[39m: ::1 - - [27/May/2025:09:43:35 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:13:43] [32minfo[39m: ::1 - - [27/May/2025:09:43:43 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:14:04] [32minfo[39m: ::1 - - [27/May/2025:09:44:04 +0000] "GET / HTTP/1.1" 200 26 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:14:04] [32minfo[39m: ::1 - - [27/May/2025:09:44:04 +0000] "GET /favicon.ico HTTP/1.1" 404 30 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:14:41] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:14:41] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:14:41] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:14:41] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 15:14:41] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 15:14:43] [32minfo[39m: ::1 - - [27/May/2025:09:44:43 +0000] "GET / HTTP/1.1" 500 1249 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:14:53] [32minfo[39m: ::1 - - [27/May/2025:09:44:53 +0000] "GET / HTTP/1.1" 500 1249 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:15:21] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:15:21] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:15:21] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:15:21] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 15:15:21] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 15:15:32] [32minfo[39m: ::1 - - [27/May/2025:09:45:32 +0000] "GET / HTTP/1.1" 200 26 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:16:12] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:16:12] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:16:12] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:16:12] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 15:16:12] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 15:16:13] [32minfo[39m: ::1 - - [27/May/2025:09:46:13 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:17:29] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:17:29] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:17:29] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:17:29] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 15:17:29] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 15:17:35] [32minfo[39m: GMAIL_EMAIL: fishydev9@gmail.com
+[2025-05-27 15:17:35] [32minfo[39m: GMAIL_APP_PASS exists: true
+[2025-05-27 15:17:35] [32minfo[39m: MongoDB: Connected to server
+[2025-05-27 15:17:35] [32minfo[39m: Server running on: http://localhost:5041
+[2025-05-27 15:17:35] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-05-27 15:17:36] [32minfo[39m: ::1 - - [27/May/2025:09:47:36 +0000] "GET / HTTP/1.1" 200 955 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:17:38] [32minfo[39m: ::1 - - [27/May/2025:09:47:38 +0000] "GET /api/v1/docs/ HTTP/1.1" 404 30 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:18:00] [32minfo[39m: ::1 - - [27/May/2025:09:48:00 +0000] "GET /api/v1/docs/ HTTP/1.1" 404 30 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:18:02] [32minfo[39m: ::1 - - [27/May/2025:09:48:02 +0000] "GET /api/v1/docs/ HTTP/1.1" 404 30 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:18:05] [32minfo[39m: ::1 - - [27/May/2025:09:48:05 +0000] "GET / HTTP/1.1" 200 959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[2025-05-27 15:18:05] [32minfo[39m: ::1 - - [27/May/2025:09:48:05 +0000] "GET /favicon.ico HTTP/1.1" 404 30 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"

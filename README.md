@@ -1,7 +1,7 @@
 # 🍽️ MessMate - QR-Based Food Ordering System
 
 Deployed on: https://messmate-backend.onrender.com
-Swagger Docs for endpoints: https://messmate-backend.onrender.com/api/v1/docs/
+Swagger Docs for endpoints: https://messmate-backend.onrender.com/api/v1/api-docs/
 
 The backend for a Full Stack MERN application that allows students to scan QR codes placed on mess tables to browse the menu and place food orders directly from their devices.
 
