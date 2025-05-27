@@ -35,15 +35,32 @@ const frontendLink =
     ? `http://localhost:` + PORT
     : `${process.env.FRONTEND_URI}`;
 
-const apiVersion = "/api/v1";
+const API_VERSION = process.env.API_VERSION;
 
 connectDB();
 
 // Middleware
 app.use(helmet());
+// app.use(
+//   cors({
+//     origin: [
+//       "http://localhost:" + PORT,
+//       process.env.FRONTEND_URI,
+//       process.env.BACKEND_URI,
+//       "http://localhost:5041",
+//     ],
+//     methods: ["GET", "POST", "PUT", "DELETE"],
+//     credentials: true,
+//   })
+// );
+
 app.use(cors());
 app.use(express.json());
-app.use(apiVersion + "/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.use(
+  API_VERSION + "/api-docs",
+  swaggerUi.serve,
+  swaggerUi.setup(swaggerSpec)
+);
 
 app.use(
   morgan("combined", {
@@ -60,9 +77,9 @@ app.use((err, req, res, next) => {
 });
 
 // Routes
-app.use(apiVersion + "/auth", authRoutes);
-app.use(apiVersion + "/menu", menuRoutes);
-// app.use(apiVersion + "/orders", orderRoutes);
+app.use(API_VERSION + "/auth", authRoutes);
+app.use(API_VERSION + "/menu", menuRoutes);
+// app.use(API_VERSION + "/orders", orderRoutes);
 
 // Home Route
 app.get("/", (req, res) => {
@@ -82,7 +99,7 @@ app.listen(PORT, () => {
   }
   const backendString = `Server running on: ` + backendLink;
   const swaggerString =
-    `Swagger docs at: ` + backendLink + apiVersion + `/docs`;
+    `Swagger docs at: ` + backendLink + API_VERSION + `/api-docs`;
 
   logger.info(backendString);
   logger.info(swaggerString);

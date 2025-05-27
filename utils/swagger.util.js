@@ -9,7 +9,13 @@ const swaggerDefinition = {
   },
   servers: [
     {
-      url: process.env.BACKEND_URI, // Your API server URL
+      url: process.env.BACKEND_URI + process.env.API_VERSION,
+    },
+    {
+      url:
+        "http://localhost:" +
+        process.env.BACKEND_PORT +
+        process.env.API_VERSION,
     },
   ],
   components: {
