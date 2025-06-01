@@ -1,6 +1,8 @@
-const express = require("express");
-const authMiddleware = require("../middlewares/auth.middleware");
+import express from "express";
+import authMiddleware from "../middlewares/auth.middleware.js";
 const router = express.Router();
+
+import menuController from "../controllers/menu.controller.js";
 
 const {
   addCategory,
@@ -16,7 +18,7 @@ const {
   getItemVariants,
   updateFoodVariant,
   deleteFoodVariant,
-} = require("../controllers/menu.controller.js");
+} = menuController;
 
 // ----- Category Routes -----
 
@@ -318,4 +320,4 @@ router.put("/variants/:variantId", authMiddleware, updateFoodVariant);
  */
 router.delete("/variants/:variantId", authMiddleware, deleteFoodVariant);
 
-module.exports = router;
+export default router;

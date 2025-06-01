@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const ItemVariantSchema = new mongoose.Schema({
   name: {
@@ -20,4 +20,4 @@ const ItemVariantSchema = new mongoose.Schema({
 
 ItemVariantSchema.index({ name: 1, foodItem: 1 }, { unique: true });
 
-module.exports = mongoose.model("ItemVariant", ItemVariantSchema);
+export default mongoose.model("ItemVariant", ItemVariantSchema);

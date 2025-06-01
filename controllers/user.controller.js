@@ -1,5 +1,5 @@
-const User = require("../models/User.model");
-const logger = require("../utils/logger.util");
+import User from "../models/User.model.js";
+import logger from "../utils/logger.util.js";
 
 // TODO: not implemented.
 const getProfile = async (req, res) => {
@@ -11,7 +11,7 @@ const updatePassword = async (req, res) => {
   res.status(404).json({ message: "TODO: not implemented." });
 };
 
-module.exports = {
+export default {
   getProfile,
   updatePassword,
 };

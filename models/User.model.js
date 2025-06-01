@@ -1,6 +1,6 @@
-const mongoose = require("mongoose");
-const crypto = require("crypto");
-const logger = require("../utils/logger.util");
+import mongoose from "mongoose";
+import crypto from "crypto";
+import logger from "../utils/logger.util.js";
 
 const UserSchema = new mongoose.Schema(
   {
@@ -54,4 +54,4 @@ UserSchema.methods.generate_resetPasswordToken = function () {
   return token;
 };
 
-module.exports = mongoose.model("User", UserSchema);
+export default mongoose.model("User", UserSchema);

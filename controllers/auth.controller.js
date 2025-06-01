@@ -1,11 +1,14 @@
-const User = require("../models/User.model");
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
-const logger = require("../utils/logger.util");
-const {
-  sendResetPasswordEmail,
-  sendResetPasswordAcknowledgementEmail,
-} = require("../utils/mailer.util");
+import bcrypt from "bcryptjs";
+import jwt from "jsonwebtoken";
+
+import User from "../models/User.model.js";
+
+import logger from "../utils/logger.util.js";
+
+import mailer from "../utils/mailer.util.js";
+
+const { sendResetPasswordEmail, sendResetPasswordAcknowledgementEmail } =
+  mailer;
 
 const login = async (req, res) => {
   logger.debug("Received a request on /login.");
@@ -235,7 +238,7 @@ const logout = async (req, res) => {
   }
 };
 
-module.exports = {
+export default {
   login,
   register,
   logout,

@@ -1,7 +1,7 @@
-const swaggerJsdoc = require("swagger-jsdoc");
+import swaggerJsdoc from "swagger-jsdoc";
 
 const serverList =
-  process.env.ENVIRONMENT === "LOCAL"
+  process.env.NODE_ENV === "LOCAL"
     ? [
         {
           url:
@@ -46,4 +46,4 @@ const options = {
 
 const swaggerSpec = swaggerJsdoc(options);
 
-module.exports = swaggerSpec;
+export default swaggerSpec;

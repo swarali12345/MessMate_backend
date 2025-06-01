@@ -2346,3 +2346,468 @@ SyntaxError: Unexpected token '.'
     at Module.require (node:internal/modules/cjs/loader:1335:12)
     at require (node:internal/modules/helpers:136:16)
     at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\auth.routes.js:12:5)
+[2025-06-01 19:22:12] [31merror[39m: uncaughtException: Identifier 'res' has already been declared
+F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:9
+  const res = await Category.find({ name: true });
+        ^
+
+SyntaxError: Identifier 'res' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:9
+  const res = await Category.find({ name: true });
+        ^
+
+SyntaxError: Identifier 'res' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+[2025-06-01 19:22:17] [31merror[39m: uncaughtException: Identifier 'res' has already been declared
+F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:9
+  const res = await Category.find();
+        ^
+
+SyntaxError: Identifier 'res' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:9
+  const res = await Category.find();
+        ^
+
+SyntaxError: Identifier 'res' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+[2025-06-01 19:26:01] [31merror[39m: uncaughtException: Unexpected token ';'
+F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:12
+    res.status(404).json({ message: "No categories have been created."; error: "No categories." });
+                                                                      ^
+
+SyntaxError: Unexpected token ';'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:12
+    res.status(404).json({ message: "No categories have been created."; error: "No categories." });
+                                                                      ^
+
+SyntaxError: Unexpected token ';'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+[2025-06-01 21:43:42] [31merror[39m: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:17:9)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Stack: TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:17:9)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2025-06-01 21:43:50] [31merror[39m: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:16:9)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Stack: TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:16:9)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2025-06-01 21:43:56] [31merror[39m: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:16:9)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Stack: TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:16:9)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2025-06-01 21:44:10] [31merror[39m: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:17:17)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Stack: TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:17:17)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2025-06-01 21:44:27] [31merror[39m: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:17:17)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Stack: TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:17:17)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2025-06-01 21:44:44] [31merror[39m: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:19:17)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Stack: TypeError: Assignment to constant variable.
+    at Server.<anonymous> (F:\Git-Company-Projects\MessMate_backend\server.js:19:17)
+    at Server.f (F:\Git-Company-Projects\MessMate_backend\node_modules\once\once.js:25:25)
+    at Object.onceWrapper (node:events:638:28)
+    at Server.emit (node:events:536:35)
+    at emitListeningNT (node:net:1980:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2025-06-01 21:49:05] [31merror[39m: Error: No categories have been created.
+    at getAllCategories (F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:12:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-06-01 21:55:02] [31merror[39m: uncaughtException: Missing catch or finally after try
+F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:31
+}
+^
+
+SyntaxError: Missing catch or finally after try
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:31
+}
+^
+
+SyntaxError: Missing catch or finally after try
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+[2025-06-01 22:05:52] [31merror[39m: uncaughtException: missing ) after argument list
+F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:67
+    return res.status(200).json(      message: "Category added successfully.",
+                                      ^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:67
+    return res.status(200).json(      message: "Category added successfully.",
+                                      ^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+[2025-06-01 22:10:01] [31merror[39m: uncaughtException: missing ) after argument list
+F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim()},{description} });
+                                       ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim()},{description} });
+                                       ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+[2025-06-01 22:10:17] [31merror[39m: uncaughtException: missing ) after argument list
+F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim()},{description}, { new: true, runValidators: true } });
+                                                                           ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim()},{description}, { new: true, runValidators: true } });
+                                                                           ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+[2025-06-01 22:10:23] [31merror[39m: uncaughtException: Unexpected token '{'
+F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim()},{description}, { new: true, runValidators: true } });
+      ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim()},{description}, { new: true, runValidators: true } });
+      ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+[2025-06-01 22:10:49] [31merror[39m: uncaughtException: Unexpected token '{'
+F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim() },
+      ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim() },
+      ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+[2025-06-01 22:11:11] [31merror[39m: uncaughtException: Unexpected token '{'
+F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim() },
+      ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim() },
+      ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+[2025-06-01 22:11:32] [31merror[39m: uncaughtException: Unexpected token '{'
+F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim() },
+      ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim() },
+      ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+[2025-06-01 22:11:37] [31merror[39m: uncaughtException: Unexpected token '{'
+F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim() },
+      ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)
+Stack: F:\Git-Company-Projects\MessMate_backend\controllers\menu.controller.js:71
+      { name: name.trim() },
+      ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (F:\Git-Company-Projects\MessMate_backend\routes\menu.routes.js:19:5)

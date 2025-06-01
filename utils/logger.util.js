@@ -1,5 +1,5 @@
-const { createLogger, format, transports } = require("winston");
-const path = require("path");
+import { createLogger, format, transports } from "winston";
+import path from "path";
 
 const logFormat = format.printf(({ timestamp, level, message, stack }) => {
   // If error stack is present, log it, else log message
@@ -37,4 +37,4 @@ const logger = createLogger({
   exitOnError: false, // do not exit on handled exceptions
 });
 
-module.exports = logger;
+export default logger;

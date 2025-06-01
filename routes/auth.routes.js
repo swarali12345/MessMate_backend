@@ -1,15 +1,12 @@
-const express = require("express");
-const authMiddleware = require("../middlewares/auth.middleware");
-// const checkBlacklistedToken = require("../middlewares/checkBlacklistedToken.middleware");
+import express from "express";
+import authMiddleware from "../middlewares/auth.middleware.js";
+// import checkBlacklistedToken from "../middlewares/checkBlacklistedToken.middleware";
 const router = express.Router();
 
-const {
-  login,
-  register,
-  logout,
-  generate_token,
-  reset_password,
-} = require("../controllers/auth.controller.js");
+import authController from "../controllers/auth.controller.js";
+
+const { login, register, logout, generate_token, reset_password } =
+  authController;
 
 /**
  * @swagger
@@ -161,4 +158,4 @@ router.use(authMiddleware);
  */
 router.post("/logout", logout);
 
-module.exports = router;
+export default router;

@@ -1,4 +1,4 @@
-const express = require("express");
+import express from "express";
 const router = express.Router();
 
 const {
@@ -26,4 +26,4 @@ router.get("/profile", getProfile);
  */
 router.post("/update-password", updatePassword);
 
-module.exports = router;
+export default router;

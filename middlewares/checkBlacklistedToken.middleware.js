@@ -1,4 +1,4 @@
-const redis = require("../utils/redis.util.js");
+import redis from "../utils/redis.util.js";
 
 const checkBlacklistedToken = async (req, res, next) => {
   const token = req.token; // Extracted by authMiddleware
@@ -12,4 +12,4 @@ const checkBlacklistedToken = async (req, res, next) => {
   next();
 };
 
-module.exports = checkBlacklistedToken;
+export default checkBlacklistedToken;
