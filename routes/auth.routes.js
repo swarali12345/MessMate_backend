@@ -1,6 +1,17 @@
 import express from "express";
 import authMiddleware from "../middlewares/auth.middleware.js";
+
 // import checkBlacklistedToken from "../middlewares/checkBlacklistedToken.middleware";
+
+// Joi routes
+import { validateParams, validateBody } from "../middlewares/joi.middleware.js";
+import {
+  loginSchema,
+  registerSchema,
+  generateTokenSchema,
+  resetPasswordSchema,
+} from "../validators/auth.validator.js";
+
 const router = express.Router();
 
 import {
@@ -42,70 +53,7 @@ import {
  *       200:
  *         description: Login successful
  */
-router.post("/login", login);
-
-/**
- * @swagger
- * /auth/forgot-password:
- *   post:
- *     summary: Sends reset password email with token
- *     tags: [Auth]
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             type: object
- *             required:
- *               - email
- *             properties:
- *               email:
- *                 type: string
- *     responses:
- *       200:
- *         description: Email sent
- *       400:
- *         description: Invalid request
- *       404:
- *         description: Email not found
- *       500:
- *         description: Server error
- */
-router.post("/forgot-password", generate_token);
-
-/**
- * @swagger
- * /auth/reset-password:
- *   post:
- *     summary: Resets password using token
- *     tags: [Auth]
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             type: object
- *             required:
- *               - token
- *               - newPassword
- *             properties:
- *               token:
- *                 type: string
- *               newPassword:
- *                 type: string
- *     responses:
- *       200:
- *         description: Password reset successful
- *       400:
- *         description: Invalid input
- *       401:
- *         description: Unauthorized or token expired
- *       404:
- *         description: User not found
- *       500:
- *         description: Server error
- */
-router.post("/reset-password", reset_password);
+router.post("/login", validateBody(loginSchema), login);
 
 /**
  * @swagger
@@ -142,7 +90,78 @@ router.post("/reset-password", reset_password);
  *       500:
  *         description: Server error
  */
-router.post("/register", register);
+router.post("/register", validateBody(registerSchema), register);
+
+/**
+ * @swagger
+ * /auth/forgot-password:
+ *   post:
+ *     summary: Sends reset password email with token
+ *     tags: [Auth]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - email
+ *             properties:
+ *               email:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Email sent
+ *       400:
+ *         description: Invalid request
+ *       404:
+ *         description: Email not found
+ *       500:
+ *         description: Server error
+ */
+router.post(
+  "/forgot-password",
+  validateBody(generateTokenSchema),
+  generate_token
+);
+
+/**
+ * @swagger
+ * /auth/reset-password:
+ *   post:
+ *     summary: Resets password using token
+ *     tags: [Auth]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - token
+ *               - newPassword
+ *             properties:
+ *               token:
+ *                 type: string
+ *               newPassword:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Password reset successful
+ *       400:
+ *         description: Invalid input
+ *       401:
+ *         description: Unauthorized or token expired
+ *       404:
+ *         description: User not found
+ *       500:
+ *         description: Server error
+ */
+router.post(
+  "/reset-password",
+  validateBody(resetPasswordSchema),
+  reset_password
+);
 
 // 🔐 Protect all routes below
 router.use(authMiddleware);

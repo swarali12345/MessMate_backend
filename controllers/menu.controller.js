@@ -3,18 +3,17 @@ import Category from "../models/Category.model.js";
 import FoodItem from "../models/FoodItem.model.js";
 import ItemVariant from "../models/ItemVariant.model.js";
 
-// Joi Validations
-import {
-  categoryInsertSchema,
-  categoryUpdateSchema,
-  categoryDeleteSchema,
-} from "../validators/menu.validator.js";
-
 // ----- Category API calls -----
 
 export const addCategory = async (req, res) => {
   try {
-    const { name, description } = categoryInsertSchema.validate(req.body);
+    const { error, value } = categoryInsertSchema.validate(req.body);
+
+    if (error) {
+      return res.status(400).json({ message: error.details[0].message });
+    }
+
+    const { name, description } = value;
 
     const existing = await Category.findOne({ name: name.trim() }).lean();
 
@@ -27,53 +26,51 @@ export const addCategory = async (req, res) => {
       description,
     });
 
-    return res.status(200).json({
+    return res.status(201).json({
       message: "Category added successfully.",
       category: newCategory,
     });
   } catch (error) {
-    throw error;
+    console.error(error);
+    return res.status(500).json({ message: "Internal server error." });
   }
 };
 
-export const getAllCategories = async (req, res) => {
+export const getAllCategories = async (req, res, next) => {
   try {
     const categories = await Category.find().lean();
 
     if (!categories.length) {
-      const error = new Error("No categories have been created.");
-      error.status = 404;
-      throw error;
+      return res
+        .status(404)
+        .json({ message: "No categories have been created." });
     }
 
     return res.status(200).json({ categories });
   } catch (error) {
-    return res.status(error.status || 500).json({
-      message: error.message || "Internal server error",
-      error: process.env.NODE_ENV === "development" ? error.stack : undefined,
-    });
+    next(error); // Pass to global error handler
   }
 };
 
 export const updateCategory = async (req, res) => {
   try {
-    const { _id, name, description } = categoryUpdateSchema.validate(req.body);
+    const { error, value } = categoryUpdateSchema.validate(req.body);
 
-    if (!name || typeof name !== "string") {
-      return res
-        .status(400)
-        .json({ message: "Category name is required and must be a string." });
+    if (error) {
+      return res.status(400).json({ message: error.details[0].message });
     }
 
-    const oldCategory = await Category.findOne({ name: name.trim() }).lean();
+    const { _id, name, description } = value;
 
-    if (!oldCategory) {
-      return res.status(404).json({ message: "Category does not exist." });
+    const category = await Category.findById(_id).lean();
+
+    if (!category) {
+      return res.status(404).json({ message: "Category not found." });
     }
 
-    const updatedCategory = await Category.findOneAndUpdate(
-      { name: name.trim() },
-      { description },
+    const updatedCategory = await Category.findByIdAndUpdate(
+      { _id },
+      { name: name.trim(), description: description.trim() },
       { new: true, runValidators: true }
     ).lean();
 
@@ -82,12 +79,13 @@ export const updateCategory = async (req, res) => {
       category: updatedCategory,
     });
   } catch (error) {
-    throw error;
+    next(error); // Pass to global error handler
   }
 };
 
 export const deleteCategory = async (req, res) => {
-  const { _id } = res.status(404).json({ message: "TODO: not implemented." });
+  const { _id } = req.body;
+  return res.status(404).json({ message: "TODO: not implemented." });
 };
 
 // ----- FoodItem API calls -----

@@ -2844,3 +2844,278 @@ Stack: TypeError: Joi.length is not a function
     at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:49:38] [31merror[39m: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/ItemVariant.model.js:1:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/ItemVariant.model.js:1:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:50:04] [31merror[39m: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:50:08] [31merror[39m: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:50:17] [31merror[39m: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:52:07] [31merror[39m: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:52:37] [31merror[39m: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:53:15] [31merror[39m: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:53:17] [31merror[39m: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:53:49] [31merror[39m: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:54:00] [31merror[39m: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:54:12] [31merror[39m: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: mongoose is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:1:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:54:35] [31merror[39m: uncaughtException: FoodItemSchema is not defined
+ReferenceError: FoodItemSchema is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:52:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: FoodItemSchema is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:52:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:54:37] [31merror[39m: uncaughtException: FoodItemSchema is not defined
+ReferenceError: FoodItemSchema is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:53:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: FoodItemSchema is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:53:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:54:45] [31merror[39m: uncaughtException: FoodItemSchema is not defined
+ReferenceError: FoodItemSchema is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:53:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: FoodItemSchema is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:53:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:54:51] [31merror[39m: uncaughtException: FoodItemSchema is not defined
+ReferenceError: FoodItemSchema is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:53:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: FoodItemSchema is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:53:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:56:57] [31merror[39m: uncaughtException: FoodItemSchema is not defined
+ReferenceError: FoodItemSchema is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/ItemVariant.model.js:53:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: FoodItemSchema is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/ItemVariant.model.js:53:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:57:01] [31merror[39m: uncaughtException: softDeletePlugin is not defined
+ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/FoodItem.model.js:67:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/FoodItem.model.js:67:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:57:09] [31merror[39m: uncaughtException: FoodItemSchema is not defined
+ReferenceError: FoodItemSchema is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:48:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: FoodItemSchema is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:48:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:57:16] [31merror[39m: uncaughtException: softDeletePlugin is not defined
+ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:48:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:48:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:57:23] [31merror[39m: uncaughtException: softDeletePlugin is not defined
+ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:48:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:48:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:59:24] [31merror[39m: uncaughtException: softDeletePlugin is not defined
+ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:48:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:48:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-01 23:59:46] [31merror[39m: uncaughtException: softDeletePlugin is not defined
+ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:48:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:48:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-02 00:00:30] [31merror[39m: uncaughtException: softDeletePlugin is not defined
+ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:48:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/Category.model.js:48:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-02 00:00:40] [31merror[39m: uncaughtException: softDeletePlugin is not defined
+ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/FoodItem.model.js:67:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/FoodItem.model.js:67:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-02 00:00:53] [31merror[39m: uncaughtException: softDeletePlugin is not defined
+ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/FoodItem.model.js:67:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: softDeletePlugin is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/models/FoodItem.model.js:67:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)

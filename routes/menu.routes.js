@@ -1,5 +1,14 @@
 import express from "express";
 import authMiddleware from "../middlewares/auth.middleware.js";
+
+// Joi Validations
+import { validateBody } from "../middlewares/joi.middleware.js";
+import {
+  categoryInsertSchema,
+  categoryUpdateSchema,
+  categoryDeleteSchema,
+} from "../validators/menu.validator.js";
+
 const router = express.Router();
 
 import {
@@ -60,7 +69,12 @@ router.get("/categories", getAllCategories); // 🟢 Public
  *       201:
  *         description: Category created
  */
-router.post("/categories", authMiddleware, addCategory);
+router.post(
+  "/categories",
+  authMiddleware,
+  validateBody(categoryInsertSchema),
+  addCategory
+);
 
 /**
  * @swagger
@@ -89,7 +103,12 @@ router.post("/categories", authMiddleware, addCategory);
  *       200:
  *         description: Category updated
  */
-router.put("/categories/:id", authMiddleware, updateCategory);
+router.put(
+  "/categories/:id",
+  authMiddleware,
+  validateBody(categoryUpdateSchema),
+  updateCategory
+);
 
 /**
  * @swagger

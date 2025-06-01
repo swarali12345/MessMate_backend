@@ -1,4 +1,7 @@
 import express from "express";
+import { validateBody } from "../middlewares/joi.middleware.js";
+import { categoryDeleteSchema } from "../validators/category.validator.js";
+
 const router = express.Router();
 
 import { getProfile, updatePassword } from "../controllers/user.controller.js";
@@ -21,6 +24,10 @@ router.get("/profile", getProfile);
  * @returns {object} 200 - { message }
  * @returns {object} 400/401/500 - { message, error? }
  */
-router.post("/update-password", updatePassword);
+router.post(
+  "/update-password",
+  validateBody(updatePasswordSchema),
+  updatePassword
+);
 
 export default router;
