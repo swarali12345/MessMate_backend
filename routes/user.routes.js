@@ -1,10 +1,7 @@
 import express from "express";
 const router = express.Router();
 
-const {
-  getProfile,
-  updatePassword,
-} = require("../controllers/user.controller.js");
+import { getProfile, updatePassword } from "../controllers/user.controller.js";
 
 /**
  * @route GET /auth/profile

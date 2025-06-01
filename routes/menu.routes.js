@@ -2,9 +2,7 @@ import express from "express";
 import authMiddleware from "../middlewares/auth.middleware.js";
 const router = express.Router();
 
-import menuController from "../controllers/menu.controller.js";
-
-const {
+import {
   addCategory,
   getAllCategories,
   updateCategory,
@@ -18,7 +16,7 @@ const {
   getItemVariants,
   updateFoodVariant,
   deleteFoodVariant,
-} = menuController;
+} from "../controllers/menu.controller.js";
 
 // ----- Category Routes -----
 

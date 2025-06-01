@@ -3,10 +3,13 @@ import authMiddleware from "../middlewares/auth.middleware.js";
 // import checkBlacklistedToken from "../middlewares/checkBlacklistedToken.middleware";
 const router = express.Router();
 
-import authController from "../controllers/auth.controller.js";
-
-const { login, register, logout, generate_token, reset_password } =
-  authController;
+import {
+  login,
+  register,
+  logout,
+  generate_token,
+  reset_password,
+} from "../controllers/auth.controller.js";
 
 /**
  * @swagger

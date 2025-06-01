@@ -1,22 +1,20 @@
-// node_modules
-import Joi from "joi";
-
 // DB interactions
 import Category from "../models/Category.model.js";
 import FoodItem from "../models/FoodItem.model.js";
 import ItemVariant from "../models/ItemVariant.model.js";
 
+// Joi Validations
+import {
+  categoryInsertSchema,
+  categoryUpdateSchema,
+  categoryDeleteSchema,
+} from "../validators/menu.validator.js";
+
 // ----- Category API calls -----
 
-const addCategory = async (req, res) => {
+export const addCategory = async (req, res) => {
   try {
-    const { name, description } = req.body;
-
-    if (!name || typeof name !== "string") {
-      return res
-        .status(400)
-        .json({ message: "Category name is required and must be a string." });
-    }
+    const { name, description } = categoryInsertSchema.validate(req.body);
 
     const existing = await Category.findOne({ name: name.trim() }).lean();
 
@@ -38,7 +36,7 @@ const addCategory = async (req, res) => {
   }
 };
 
-const getAllCategories = async (req, res) => {
+export const getAllCategories = async (req, res) => {
   try {
     const categories = await Category.find().lean();
 
@@ -57,9 +55,9 @@ const getAllCategories = async (req, res) => {
   }
 };
 
-const updateCategory = async (req, res) => {
+export const updateCategory = async (req, res) => {
   try {
-    const { _id, name, description } = req.body;
+    const { _id, name, description } = categoryUpdateSchema.validate(req.body);
 
     if (!name || typeof name !== "string") {
       return res
@@ -81,62 +79,46 @@ const updateCategory = async (req, res) => {
 
     return res.status(200).json({
       message: "Category updated successfully.",
-      category: newCategory,
+      category: updatedCategory,
     });
   } catch (error) {
     throw error;
   }
 };
 
-const deleteCategory = async (req, res) => {
-  res.status(404).json({ message: "TODO: not implemented." });
+export const deleteCategory = async (req, res) => {
+  const { _id } = res.status(404).json({ message: "TODO: not implemented." });
 };
 
 // ----- FoodItem API calls -----
 
-const addFoodItem = async (req, res) => {
+export const addFoodItem = async (req, res) => {
   res.status(404).json({ message: "TODO: not implemented." });
 };
-const getAllFoodItems = async (req, res) => {
+export const getAllFoodItems = async (req, res) => {
   res.status(404).json({ message: "TODO: not implemented." });
 };
-const getFoodItemById = async (req, res) => {
+export const getFoodItemById = async (req, res) => {
   res.status(404).json({ message: "TODO: not implemented." });
 };
-const updateFoodItem = async (req, res) => {
+export const updateFoodItem = async (req, res) => {
   res.status(404).json({ message: "TODO: not implemented." });
 };
-const deleteFoodItem = async (req, res) => {
+export const deleteFoodItem = async (req, res) => {
   res.status(404).json({ message: "TODO: not implemented." });
 };
 
 // ----- Item Variant API calls -----
 
-const addFoodVariant = async (req, res) => {
+export const addFoodVariant = async (req, res) => {
   res.status(404).json({ message: "TODO: not implemented." });
 };
-const getItemVariants = async (req, res) => {
+export const getItemVariants = async (req, res) => {
   res.status(404).json({ message: "TODO: not implemented." });
 };
-const updateFoodVariant = async (req, res) => {
+export const updateFoodVariant = async (req, res) => {
   res.status(404).json({ message: "TODO: not implemented." });
 };
-const deleteFoodVariant = async (req, res) => {
+export const deleteFoodVariant = async (req, res) => {
   res.status(404).json({ message: "TODO: not implemented." });
-};
-
-export default {
-  addCategory,
-  getAllCategories,
-  updateCategory,
-  deleteCategory,
-  addFoodItem,
-  getAllFoodItems,
-  getFoodItemById,
-  updateFoodItem,
-  deleteFoodItem,
-  addFoodVariant,
-  getItemVariants,
-  updateFoodVariant,
-  deleteFoodVariant,
 };
