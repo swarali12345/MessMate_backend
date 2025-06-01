@@ -5,15 +5,9 @@ import ItemVariant from "../models/ItemVariant.model.js";
 
 // ----- Category API calls -----
 
-export const addCategory = async (req, res) => {
+export const addCategory = async (req, res, next) => {
   try {
-    const { error, value } = categoryInsertSchema.validate(req.body);
-
-    if (error) {
-      return res.status(400).json({ message: error.details[0].message });
-    }
-
-    const { name, description } = value;
+    const { name, description } = req.body;
 
     const existing = await Category.findOne({ name: name.trim() }).lean();
 
@@ -52,15 +46,9 @@ export const getAllCategories = async (req, res, next) => {
   }
 };
 
-export const updateCategory = async (req, res) => {
+export const updateCategory = async (req, res, next) => {
   try {
-    const { error, value } = categoryUpdateSchema.validate(req.body);
-
-    if (error) {
-      return res.status(400).json({ message: error.details[0].message });
-    }
-
-    const { _id, name, description } = value;
+    const { _id, name, description } = req.body;
 
     const category = await Category.findById(_id).lean();
 
@@ -83,40 +71,128 @@ export const updateCategory = async (req, res) => {
   }
 };
 
-export const deleteCategory = async (req, res) => {
-  const { _id } = req.body;
-  return res.status(404).json({ message: "TODO: not implemented." });
+export const deleteCategory = async (req, res, next) => {
+  try {
+    const { _id } = req.params;
+
+    const category = await Category.findById(_id).lean();
+
+    if (!category) {
+      return res.status(404).json({ message: "Category not found." });
+    }
+
+    await Category.softDeleteById(_id);
+    return res.status(200).json({ message: "deleted." });
+  } catch (error) {
+    next(error);
+  }
 };
 
+export const restoreCategory = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+
+    const category = await Category.findById(id);
+    if (!category) {
+      return res.status(404).json({ message: "Category not found." });
+    }
+
+    await category.restore();
+
+    return res.status(200).json({ message: "Category restored." });
+  } catch (error) {
+    next(error);
+  }
+};
 // ----- FoodItem API calls -----
 
-export const addFoodItem = async (req, res) => {
-  res.status(404).json({ message: "TODO: not implemented." });
+export const addFoodItem = async (req, res, next) => {
+  try {
+    res.status(404).json({ message: "TODO: not implemented." });
+  } catch (error) {
+    next(error);
+  }
 };
-export const getAllFoodItems = async (req, res) => {
-  res.status(404).json({ message: "TODO: not implemented." });
+export const getAllFoodItems = async (req, res, next) => {
+  try {
+    res.status(404).json({ message: "TODO: not implemented." });
+  } catch (error) {
+    next(error);
+  }
 };
-export const getFoodItemById = async (req, res) => {
-  res.status(404).json({ message: "TODO: not implemented." });
+export const getFoodItemById = async (req, res, next) => {
+  try {
+    res.status(404).json({ message: "TODO: not implemented." });
+  } catch (error) {
+    next(error);
+  }
 };
-export const updateFoodItem = async (req, res) => {
-  res.status(404).json({ message: "TODO: not implemented." });
+export const updateFoodItem = async (req, res, next) => {
+  try {
+    res.status(404).json({ message: "TODO: not implemented." });
+  } catch (error) {
+    next(error);
+  }
 };
-export const deleteFoodItem = async (req, res) => {
-  res.status(404).json({ message: "TODO: not implemented." });
+export const deleteFoodItem = async (req, res, next) => {
+  try {
+    res.status(404).json({ message: "TODO: not implemented." });
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const restoreFoodItem = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const item = await FoodItem.findById(id);
+    if (!item) return res.status(404).json({ message: "Food item not found" });
+    await item.restore();
+    res.json({ message: "Food item restored successfully" });
+  } catch (error) {
+    next(error);
+  }
 };
 
 // ----- Item Variant API calls -----
 
-export const addFoodVariant = async (req, res) => {
-  res.status(404).json({ message: "TODO: not implemented." });
+export const addFoodVariant = async (req, res, next) => {
+  try {
+    res.status(404).json({ message: "TODO: not implemented." });
+  } catch (error) {
+    next(error);
+  }
 };
-export const getItemVariants = async (req, res) => {
-  res.status(404).json({ message: "TODO: not implemented." });
+export const getItemVariants = async (req, res, next) => {
+  try {
+    res.status(404).json({ message: "TODO: not implemented." });
+  } catch (error) {
+    next(error);
+  }
 };
-export const updateFoodVariant = async (req, res) => {
-  res.status(404).json({ message: "TODO: not implemented." });
+export const updateFoodVariant = async (req, res, next) => {
+  try {
+    res.status(404).json({ message: "TODO: not implemented." });
+  } catch (error) {
+    next(error);
+  }
 };
-export const deleteFoodVariant = async (req, res) => {
-  res.status(404).json({ message: "TODO: not implemented." });
+export const deleteFoodVariant = async (req, res, next) => {
+  try {
+    res.status(404).json({ message: "TODO: not implemented." });
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const restoreFoodVariant = async (req, res) => {
+  try {
+    const { variantId } = req.params;
+    const variant = await FoodVariant.findById(variantId);
+    if (!variant) return res.status(404).json({ message: "Variant not found" });
+    await variant.restore();
+    res.json({ message: "Food variant restored successfully" });
+  } catch (error) {
+    next(error);
+  }
 };

@@ -2,7 +2,7 @@ import express from "express";
 import authMiddleware from "../middlewares/auth.middleware.js";
 
 // Joi Validations
-import { validateBody } from "../middlewares/joi.middleware.js";
+import { validateBody, validateParams } from "../middlewares/joi.middleware.js";
 import {
   categoryInsertSchema,
   categoryUpdateSchema,
@@ -16,15 +16,18 @@ import {
   getAllCategories,
   updateCategory,
   deleteCategory,
+  restoreCategory,
   addFoodItem,
   getAllFoodItems,
   getFoodItemById,
   updateFoodItem,
   deleteFoodItem,
+  restoreFoodItem,
   addFoodVariant,
   getItemVariants,
   updateFoodVariant,
   deleteFoodVariant,
+  restoreFoodVariant,
 } from "../controllers/menu.controller.js";
 
 // ----- Category Routes -----
@@ -128,7 +131,32 @@ router.put(
  *       200:
  *         description: Category deleted
  */
-router.delete("/categories/:id", authMiddleware, deleteCategory);
+router.delete(
+  "/categories/:_id",
+  authMiddleware,
+  validateParams(categoryDeleteSchema),
+  deleteCategory
+);
+
+/**
+ * @swagger
+ * /menu/categories/{id}/restore:
+ *   patch:
+ *     summary: Restore a soft-deleted category
+ *     tags: [Menu]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - name: id
+ *         in: path
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Category restored
+ */
+router.patch("/categories/:id/restore", authMiddleware, restoreCategory);
 
 // ----- Food Item Routes -----
 
@@ -246,6 +274,26 @@ router.put("/items/:id", authMiddleware, updateFoodItem);
  */
 router.delete("/items/:id", authMiddleware, deleteFoodItem);
 
+/**
+ * @swagger
+ * /menu/items/{id}/restore:
+ *   patch:
+ *     summary: Restore a soft-deleted food item
+ *     tags: [Menu]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - name: id
+ *         in: path
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Food item restored
+ */
+router.patch("/items/:id/restore", authMiddleware, restoreFoodItem);
+
 // ----- Variant Routes -----
 
 /**
@@ -336,5 +384,29 @@ router.put("/variants/:variantId", authMiddleware, updateFoodVariant);
  *         description: Variant deleted
  */
 router.delete("/variants/:variantId", authMiddleware, deleteFoodVariant);
+
+/**
+ * @swagger
+ * /menu/variants/{variantId}/restore:
+ *   patch:
+ *     summary: Restore a soft-deleted food variant
+ *     tags: [Menu]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - name: variantId
+ *         in: path
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Variant restored
+ */
+router.patch(
+  "/variants/:variantId/restore",
+  authMiddleware,
+  restoreFoodVariant
+);
 
 export default router;

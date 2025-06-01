@@ -3119,3 +3119,14 @@ Stack: ReferenceError: softDeletePlugin is not defined
     at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+[2025-06-02 00:16:10] [31merror[39m: uncaughtException: restoreCategory is not defined
+ReferenceError: restoreCategory is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/routes/menu.routes.js:156:57
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Stack: ReferenceError: restoreCategory is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/routes/menu.routes.js:156:57
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)

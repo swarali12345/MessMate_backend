@@ -1951,3 +1951,151 @@
 [2025-06-02 00:01:01] [32minfo[39m: Server running on: http://localhost:5041
 [2025-06-02 00:01:01] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
 [2025-06-02 00:01:01] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:02:30] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:02:30] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:02:30] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:02:30] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:02:30] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:02:30] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:02:35] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:02:35] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:02:35] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:02:35] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:02:35] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:02:35] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:02:40] [32minfo[39m: ::1 - - [01/Jun/2025:18:32:40 +0000] "POST /api/v1/menu/categories HTTP/1.1" 500 36 "-" "PostmanRuntime/7.44.0"
+[2025-06-02 00:03:00] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:03:00] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:03:00] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:03:00] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:03:00] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:03:00] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:03:00] [32minfo[39m: ::1 - - [01/Jun/2025:18:33:00 +0000] "POST /api/v1/menu/categories HTTP/1.1" 201 268 "-" "PostmanRuntime/7.44.0"
+[2025-06-02 00:03:08] [32minfo[39m: ::1 - - [01/Jun/2025:18:33:08 +0000] "POST /api/v1/menu/categories HTTP/1.1" 409 38 "-" "PostmanRuntime/7.44.0"
+[2025-06-02 00:03:12] [32minfo[39m: ::1 - - [01/Jun/2025:18:33:12 +0000] "POST /api/v1/menu/categories HTTP/1.1" 201 269 "-" "PostmanRuntime/7.44.0"
+[2025-06-02 00:03:33] [32minfo[39m: ::1 - - [01/Jun/2025:18:33:33 +0000] "GET /api/v1/menu/categories HTTP/1.1" 200 656 "-" "PostmanRuntime/7.44.0"
+[2025-06-02 00:04:23] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:04:23] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:04:23] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:04:23] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:04:23] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:04:23] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:04:47] [32minfo[39m: ::1 - - [01/Jun/2025:18:34:47 +0000] "DELETE /api/v1/menu/categories?id=683c7fcbf57d456cc1fd4f88 HTTP/1.1" 404 30 "-" "PostmanRuntime/7.44.0"
+[2025-06-02 00:05:56] [32minfo[39m: ::1 - - [01/Jun/2025:18:35:56 +0000] "DELETE /api/v1/menu/categories/683c7fcbf57d456cc1fd4f88 HTTP/1.1" 400 33 "-" "PostmanRuntime/7.44.0"
+[2025-06-02 00:06:41] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:06:41] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:06:41] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:06:41] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:06:41] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:06:41] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:06:56] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:06:56] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:06:56] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:06:56] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:06:56] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:06:56] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:07:01] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:07:01] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:07:01] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:07:01] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:07:01] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:07:01] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:07:06] [32minfo[39m: ::1 - - [01/Jun/2025:18:37:06 +0000] "DELETE /api/v1/menu/categories/683c7fcbf57d456cc1fd4f88 HTTP/1.1" 404 36 "-" "PostmanRuntime/7.44.0"
+[2025-06-02 00:07:38] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:07:38] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:07:38] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:07:38] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:07:38] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:07:38] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:08:04] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:08:04] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:08:04] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:08:04] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:08:04] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:08:04] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:08:39] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:08:39] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:08:39] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:08:39] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:08:39] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:08:39] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:09:23] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:09:23] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:09:23] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:09:23] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:09:23] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:09:23] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:09:46] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:09:46] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:09:46] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:09:46] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:09:46] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:09:46] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:09:54] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:09:54] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:09:54] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:09:54] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:09:54] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:09:54] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:09:58] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:09:58] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:09:58] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:09:58] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:09:58] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:09:58] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:10:55] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:10:55] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:10:55] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:10:55] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:10:55] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:10:55] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:11:22] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:11:22] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:11:22] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:11:23] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:11:23] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:11:23] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:12:05] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:12:05] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:12:05] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:12:05] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:12:05] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:12:05] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:13:19] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:13:19] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:13:19] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:13:19] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:13:19] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:13:19] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:13:29] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:13:29] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:13:29] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:13:29] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:13:29] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:13:29] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:13:39] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:13:39] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:13:39] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:13:39] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:13:39] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:13:39] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:14:41] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:14:41] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:14:41] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:14:41] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:14:41] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:14:41] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:16:10] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:16:10] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:17:23] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:17:23] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:17:23] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:17:23] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:17:23] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:17:23] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-02 00:18:00] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-02 00:18:00] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-02 00:18:00] [32minfo[39m: MongoDB: Connected to server
+[2025-06-02 00:18:00] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-02 00:18:00] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-02 00:18:00] [32minfo[39m: ============== SERVER STARTED ==============
