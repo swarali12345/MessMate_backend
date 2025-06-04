@@ -2204,3 +2204,60 @@
 [2025-06-03 07:32:56] [32minfo[39m: Server running on: http://localhost:5041
 [2025-06-03 07:32:56] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
 [2025-06-03 07:32:56] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-04 22:34:02] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-04 22:34:02] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-04 22:34:02] [32minfo[39m: MongoDB: Connected to server
+[2025-06-04 22:34:02] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-04 22:34:02] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-04 22:34:02] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-04 22:34:06] [31merror[39m: ReferenceError: __dirname is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/app.js:68:26
+    at Layer.handleRequest (F:\Git-Company-Projects\MessMate_backend\node_modules\router\lib\layer.js:152:17)
+    at next (F:\Git-Company-Projects\MessMate_backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (F:\Git-Company-Projects\MessMate_backend\node_modules\router\lib\route.js:117:3)
+    at handle (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (F:\Git-Company-Projects\MessMate_backend\node_modules\router\lib\layer.js:152:17)
+    at F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:295:15
+    at processParams (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:582:12)
+    at next (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:291:5)
+    at logger (F:\Git-Company-Projects\MessMate_backend\node_modules\morgan\index.js:144:5)
+[2025-06-04 22:34:06] [32minfo[39m: ::1 - - [04/Jun/2025:17:04:06 +0000] "GET / HTTP/1.1" 500 1108 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+[2025-06-04 22:34:07] [32minfo[39m: ::1 - - [04/Jun/2025:17:04:07 +0000] "GET /favicon.ico HTTP/1.1" 404 30 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+[2025-06-04 17:04:06] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-04 17:04:06] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-04 17:04:06] [32minfo[39m: MongoDB: Connected to server
+[2025-06-04 17:04:06] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-04 17:04:06] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-04 17:04:06] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-04 22:35:42] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-04 22:35:42] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-04 22:35:42] [32minfo[39m: MongoDB: Connected to server
+[2025-06-04 22:35:42] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-04 22:35:42] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-04 22:35:42] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-04 22:35:46] [31merror[39m: ReferenceError: __dirname is not defined
+    at file:///F:/Git-Company-Projects/MessMate_backend/app.js:68:26
+    at Layer.handleRequest (F:\Git-Company-Projects\MessMate_backend\node_modules\router\lib\layer.js:152:17)
+    at next (F:\Git-Company-Projects\MessMate_backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (F:\Git-Company-Projects\MessMate_backend\node_modules\router\lib\route.js:117:3)
+    at handle (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (F:\Git-Company-Projects\MessMate_backend\node_modules\router\lib\layer.js:152:17)
+    at F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:295:15
+    at processParams (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:582:12)
+    at next (F:\Git-Company-Projects\MessMate_backend\node_modules\router\index.js:291:5)
+    at logger (F:\Git-Company-Projects\MessMate_backend\node_modules\morgan\index.js:144:5)
+[2025-06-04 22:35:46] [32minfo[39m: ::1 - - [04/Jun/2025:17:05:46 +0000] "GET / HTTP/1.1" 500 1108 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+[2025-06-04 22:38:03] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-04 22:38:03] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-04 22:38:04] [32minfo[39m: MongoDB: Connected to server
+[2025-06-04 22:38:04] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-04 22:38:04] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-04 22:38:04] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-04 22:38:06] [32minfo[39m: ::1 - - [04/Jun/2025:17:08:06 +0000] "GET / HTTP/1.1" 200 959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+[2025-06-04 22:38:14] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-04 22:38:14] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-04 22:38:14] [32minfo[39m: MongoDB: Connected to server
+[2025-06-04 22:38:14] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-04 22:38:14] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-04 22:38:14] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-04 22:38:16] [32minfo[39m: ::1 - - [04/Jun/2025:17:08:16 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"

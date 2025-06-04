@@ -9,6 +9,7 @@ import morgan from "morgan";
 import swaggerUi from "swagger-ui-express";
 import swaggerSpec from "./utils/swagger.util.js";
 import path from "path";
+import { fileURLToPath } from "url";
 
 import logger from "./utils/logger.util.js";
 
@@ -22,6 +23,9 @@ import menuRoutes from "./routes/menu.routes.js";
 const app = express();
 const API_VERSION = process.env.API_VERSION;
 const PORT = process.env.BACKEND_PORT || 3001;
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 connectDB();
 
@@ -63,6 +67,7 @@ app.use(API_VERSION + "/auth", authRoutes);
 app.use(API_VERSION + "/menu", menuRoutes);
 // app.use(API_VERSION + "/orders", orderRoutes);
 
+app.use(express.static(path.join(__dirname, "public")));
 // Home Route
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
