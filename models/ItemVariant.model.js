@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-import { softDeletePlugin } from "./SoftDelete.plugin.js";
+import mongooseDelete from "mongoose-delete";
+// import { softDeletePlugin } from "./SoftDelete.plugin.js";
 
 const ItemVariantSchema = new mongoose.Schema(
   {
@@ -51,6 +52,11 @@ ItemVariantSchema.pre("save", function (next) {
   next();
 });
 
-ItemVariantSchema.plugin(softDeletePlugin);
+ItemVariantSchema.plugin(mongooseDelete, {
+  deletedAt: true,
+  overrideMethods: "all",
+});
+
+// ItemVariantSchema.plugin(softDeletePlugin);
 
 export default mongoose.model("ItemVariant", ItemVariantSchema);

@@ -14,6 +14,8 @@ const router = express.Router();
 import {
   addCategory,
   getAllCategories,
+  getDeletedCategories,
+  getCurrentCategories,
   updateCategory,
   deleteCategory,
   restoreCategory,
@@ -49,7 +51,7 @@ import {
  *       200:
  *         description: List of categories
  */
-router.get("/categories", getAllCategories); // 🟢 Public
+router.get("/categories", getCurrentCategories); // 🟢 Public
 
 /**
  * @swagger
@@ -107,7 +109,7 @@ router.post(
  *         description: Category updated
  */
 router.put(
-  "/categories/:id",
+  "/categories/:_id",
   authMiddleware,
   validateBody(categoryUpdateSchema),
   updateCategory
@@ -154,9 +156,14 @@ router.delete(
  *           type: string
  *     responses:
  *       200:
- *         description: Category restored
+ *         description: Category restored successfully
+ *       404:
+ *         description: Category not found
  */
 router.patch("/categories/:id/restore", authMiddleware, restoreCategory);
+
+router.get("/categories/deleted", authMiddleware, getDeletedCategories);
+router.get("/categories/all", authMiddleware, getAllCategories);
 
 // ----- Food Item Routes -----
 
@@ -290,7 +297,9 @@ router.delete("/items/:id", authMiddleware, deleteFoodItem);
  *           type: string
  *     responses:
  *       200:
- *         description: Food item restored
+ *         description: Food item restored successfully
+ *       404:
+ *         description: Food item not found
  */
 router.patch("/items/:id/restore", authMiddleware, restoreFoodItem);
 

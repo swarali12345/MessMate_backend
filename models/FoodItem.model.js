@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-import { softDeletePlugin } from "./SoftDelete.plugin.js";
+import mongooseDelete from "mongoose-delete";
+// import { softDeletePlugin } from "./SoftDelete.plugin.js";
 
 const FoodItemSchema = new mongoose.Schema(
   {
@@ -65,6 +66,11 @@ FoodItemSchema.pre("save", function (next) {
   next();
 });
 
-FoodItemSchema.plugin(softDeletePlugin);
+FoodItemSchema.plugin(mongooseDelete, {
+  deletedAt: true,
+  overrideMethods: "all",
+});
+
+// FoodItemSchema.plugin(softDeletePlugin);
 
 export default mongoose.model("FoodItem", FoodItemSchema);

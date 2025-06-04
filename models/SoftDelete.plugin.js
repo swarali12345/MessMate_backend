@@ -16,6 +16,19 @@ export function softDeletePlugin(schema) {
     return this.findByIdAndUpdate(id, { deletedAt: new Date() });
   };
 
+  schema.statics.restoreById = async function (id) {
+    const doc = this.findById(id);
+
+    if (!doc) {
+      throw new Error(
+        `${this.modelName} could not find the document by ID: ${id}`
+      );
+    }
+
+    await doc.restore();
+    return doc;
+  };
+
   function excludeDeletedMiddleware(next) {
     if (!this.getOptions().includeDeleted) {
       this.where({ deletedAt: null });

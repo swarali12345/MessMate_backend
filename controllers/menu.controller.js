@@ -30,9 +30,41 @@ export const addCategory = async (req, res, next) => {
   }
 };
 
-export const getAllCategories = async (req, res, next) => {
+export const getCurrentCategories = async (req, res, next) => {
   try {
     const categories = await Category.find().lean();
+
+    if (!categories.length) {
+      return res
+        .status(404)
+        .json({ message: "No categories have been created." });
+    }
+
+    return res.status(200).json({ categories });
+  } catch (error) {
+    next(error); // Pass to global error handler
+  }
+};
+
+export const getDeletedCategories = async (req, res, next) => {
+  try {
+    const categories = await Category.findDeleted().lean();
+
+    if (!categories.length) {
+      return res
+        .status(404)
+        .json({ message: "No categories have been soft-deleted recently." });
+    }
+
+    return res.status(200).json({ categories });
+  } catch (error) {
+    next(error); // Pass to global error handler
+  }
+};
+
+export const getAllCategories = async (req, res, next) => {
+  try {
+    const categories = await Category.findWithDeleted().lean();
 
     if (!categories.length) {
       return res
@@ -75,14 +107,15 @@ export const deleteCategory = async (req, res, next) => {
   try {
     const { _id } = req.params;
 
-    const category = await Category.findById(_id).lean();
+    const result = await Category.deleteById(_id);
 
-    if (!category) {
+    if (!result) {
       return res.status(404).json({ message: "Category not found." });
     }
 
-    await Category.softDeleteById(_id);
-    return res.status(200).json({ message: "deleted." });
+    return res.status(200).json({
+      message: `Deleted successfully.`,
+    });
   } catch (error) {
     next(error);
   }
@@ -104,6 +137,7 @@ export const restoreCategory = async (req, res, next) => {
     next(error);
   }
 };
+
 // ----- FoodItem API calls -----
 
 export const addFoodItem = async (req, res, next) => {
@@ -145,7 +179,7 @@ export const deleteFoodItem = async (req, res, next) => {
 export const restoreFoodItem = async (req, res) => {
   try {
     const { id } = req.params;
-    const item = await FoodItem.findById(id);
+    const item = await FoodItem.findById(id).withDeleted();
     if (!item) return res.status(404).json({ message: "Food item not found" });
     await item.restore();
     res.json({ message: "Food item restored successfully" });

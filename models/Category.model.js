@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-import { softDeletePlugin } from "./SoftDelete.plugin.js";
+import mongooseDelete from "mongoose-delete";
+// import { softDeletePlugin } from "./SoftDelete.plugin.js";
 
 const CategorySchema = new mongoose.Schema(
   {
@@ -31,10 +32,10 @@ const CategorySchema = new mongoose.Schema(
       type: Date,
       default: Date.now,
     },
-    deletedAt: {
-      type: Date,
-      default: null,
-    },
+    // deletedAt: {
+    //   type: Date,
+    //   default: null,
+    // },
   },
   {
     timestamps: true,
@@ -46,6 +47,11 @@ CategorySchema.pre("save", function (next) {
   next();
 });
 
-CategorySchema.plugin(softDeletePlugin);
+CategorySchema.plugin(mongooseDelete, {
+  deletedAt: true,
+  overrideMethods: "all",
+});
+
+// CategorySchema.plugin(softDeletePlugin);
 
 export default mongoose.model("Category", CategorySchema);
