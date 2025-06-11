@@ -1,9 +1,9 @@
-const mongoose = require("mongoose");
-const logger = require("../utils/logger.util");
+import mongoose from "mongoose";
+import logger from "../utils/logger.util.js";
 
-const connectDB = async () => {
+export const connectDB = async () => {
   try {
-    const URI = process.env.ENVIRONMENT == "LOCAL" ? process.env.LOCAL_MONGODB_URI : process.env.MONGODB_URI;
+    const URI = process.env.ENVIRONMENT == ["LOCAL", "development"] ? process.env.LOCAL_MONGODB_URI : process.env.MONGODB_URI;
     const connect = mongoose.connect(URI);
     logger.info(`MongoDB: Connected to server`);
   } catch (error) {
@@ -11,5 +11,3 @@ const connectDB = async () => {
     process.exit(1);
   }
 };
-
-module.exports = connectDB;

@@ -2261,3 +2261,36 @@
 [2025-06-04 22:38:14] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
 [2025-06-04 22:38:14] [32minfo[39m: ============== SERVER STARTED ==============
 [2025-06-04 22:38:16] [32minfo[39m: ::1 - - [04/Jun/2025:17:08:16 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+[2025-06-11 12:29:32] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-11 12:29:32] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-11 12:29:32] [32minfo[39m: MongoDB: Connected to server
+[2025-06-11 12:29:32] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-11 12:29:32] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-11 12:29:32] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-11 12:29:36] [32minfo[39m: ::1 - - [11/Jun/2025:06:59:36 +0000] "GET / HTTP/1.1" 200 959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+[2025-06-11 12:29:36] [32minfo[39m: ::1 - - [11/Jun/2025:06:59:36 +0000] "GET /favicon.ico HTTP/1.1" 404 30 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+[2025-06-11 12:30:02] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-11 12:30:02] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-11 12:30:02] [32minfo[39m: MongoDB: Connected to server
+[2025-06-11 12:30:03] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-11 12:30:03] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-11 12:30:03] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-11 12:30:08] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-11 12:30:08] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-11 12:30:08] [32minfo[39m: MongoDB: Connected to server
+[2025-06-11 12:30:08] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-11 12:30:08] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-11 12:30:08] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-11 12:30:09] [32minfo[39m: ::1 - - [11/Jun/2025:07:00:09 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+[2025-06-11 12:31:57] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-11 12:31:57] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-11 12:31:57] [32minfo[39m: MongoDB: Connected to server
+[2025-06-11 12:31:57] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-11 12:31:57] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-11 12:31:57] [32minfo[39m: ============== SERVER STARTED ==============
+[2025-06-11 12:32:29] [32minfo[39m: GMAIL_EMAIL: undefined
+[2025-06-11 12:32:29] [32minfo[39m: GMAIL_APP_PASS exists: false
+[2025-06-11 12:32:29] [32minfo[39m: MongoDB: Connected to server
+[2025-06-11 12:32:29] [32minfo[39m: Server running on: http://localhost:5041
+[2025-06-11 12:32:29] [32minfo[39m: Swagger docs at: http://localhost:5041/api/v1/api-docs
+[2025-06-11 12:32:29] [32minfo[39m: ============== SERVER STARTED ==============

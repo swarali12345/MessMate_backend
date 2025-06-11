@@ -13,7 +13,7 @@ import { fileURLToPath } from "url";
 
 import logger from "./utils/logger.util.js";
 
-import connectDB from "./config/db.js";
+import { connectDB } from "./config/db.js";
 
 import authRoutes from "./routes/auth.routes.js";
 import menuRoutes from "./routes/menu.routes.js";

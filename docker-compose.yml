@@ -1,9 +1,9 @@
 services:
   app:
     build: .
-    container_name: my-app
+    container_name: messmate-docker
     ports:
-      - "3000:3000"
+      - "5041:5041"
     volumes:
       - .:/app
     environment:
