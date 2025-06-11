@@ -1,13 +1,16 @@
-const User = require("../models/User.model");
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
-const logger = require("../utils/logger.util");
-const {
+import bcrypt from "bcryptjs";
+import jwt from "jsonwebtoken";
+
+import User from "../models/User.model.js";
+
+import logger from "../utils/logger.util.js";
+
+import {
   sendResetPasswordEmail,
   sendResetPasswordAcknowledgementEmail,
-} = require("../utils/mailer.util");
+} from "../utils/mailer.util.js";
 
-const login = async (req, res) => {
+export const login = async (req, res) => {
   logger.debug("Received a request on /login.");
   const { email, password } = req.body;
 
@@ -61,7 +64,7 @@ const login = async (req, res) => {
   }
 };
 
-const register = async (req, res) => {
+export const register = async (req, res) => {
   logger.debug("Received a request on /register.");
   const { profile_photo, name, email, password, role } = req.body;
 
@@ -118,7 +121,7 @@ const register = async (req, res) => {
   }
 };
 
-const generate_token = async (req, res) => {
+export const generate_token = async (req, res) => {
   logger.debug("Received a request on /forgot-password.");
   const { email } = req.body;
 
@@ -153,7 +156,7 @@ const generate_token = async (req, res) => {
   }
 };
 
-const reset_password = async (req, res) => {
+export const reset_password = async (req, res) => {
   logger.debug("Received a request on /reset-password.");
   const token = req.body.token || req.query.token || req.params.token;
   const { newPassword } = req.body;
@@ -201,7 +204,7 @@ const reset_password = async (req, res) => {
 };
 
 // TODO: Blacklisting JWT Tokens (Not necessary)
-const logout = async (req, res) => {
+export const logout = async (req, res) => {
   logger.debug("Received a request on /logout.");
 
   try {
@@ -233,12 +236,4 @@ const logout = async (req, res) => {
     logger.error("Error in /logout: ", error);
     return res.status(500).json({ message: "Internal Server Error." });
   }
-};
-
-module.exports = {
-  login,
-  register,
-  logout,
-  generate_token,
-  reset_password,
 };

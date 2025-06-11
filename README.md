@@ -24,7 +24,7 @@ The backend for a Full Stack MERN application that allows students to scan QR co
 | -------- | ------------------------------------------ |
 | Frontend | React.js, TailwindCSS                      |
 | Backend  | Node.js, Express                           |
-| Database | MongoDB (Mongoose)                         |
+| Database | PostgreSQL|
 | QR Code  | `qrcode` npm package                       |
 | Auth     | JWT + bcrypt                               |
 | Hosting  | Vercel (Frontend), Render/Fly.io (Backend) |

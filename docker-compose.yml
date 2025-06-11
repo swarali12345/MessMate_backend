@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    container_name: messmate-docker
+    ports:
+      - "5041:5041"
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=development

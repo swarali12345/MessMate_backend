@@ -1,10 +1,10 @@
-const express = require("express");
+import express from "express";
+import { validateBody } from "../middlewares/joi.middleware.js";
+import { categoryDeleteSchema } from "../validators/category.validator.js";
+
 const router = express.Router();
 
-const {
-  getProfile,
-  updatePassword,
-} = require("../controllers/user.controller.js");
+import { getProfile, updatePassword } from "../controllers/user.controller.js";
 
 /**
  * @route GET /auth/profile
@@ -24,6 +24,10 @@ router.get("/profile", getProfile);
  * @returns {object} 200 - { message }
  * @returns {object} 400/401/500 - { message, error? }
  */
-router.post("/update-password", updatePassword);
+router.post(
+  "/update-password",
+  validateBody(updatePasswordSchema),
+  updatePassword
+);
 
-module.exports = router;
+export default router;

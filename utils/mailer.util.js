@@ -1,6 +1,6 @@
-const nodemailer = require("nodemailer");
-const logger = require("../utils/logger.util");
-// const { Resend } = require("resend");
+import nodemailer from "nodemailer";
+import { Resend } from "resend";
+import logger from "../utils/logger.util.js";
 
 // logger.info("RESEND_API_KEY exists: " + !!process.env.RESEND_API_KEY);
 logger.info("GMAIL_EMAIL: " + process.env.GMAIL_EMAIL);
@@ -25,9 +25,9 @@ async function sendMail(to, mailOptions) {
   }
 }
 
-const sendResetPasswordEmail = async (to, token) => {
+export const sendResetPasswordEmail = async (to, token) => {
   const FRONTEND_URI =
-    process.env.ENVIRONMENT === "LOCAL"
+    process.env.NODE_ENV in ["LOCAL" || "development"]
       ? "http://localhost:3000"
       : process.env.FRONTEND_URI;
   const resetURL = FRONTEND_URI + `/auth/reset-password/${token}`;
@@ -47,7 +47,7 @@ const sendResetPasswordEmail = async (to, token) => {
   await sendMail(to, mailOptions);
 };
 
-const sendResetPasswordAcknowledgementEmail = async (to) => {
+export const sendResetPasswordAcknowledgementEmail = async (to) => {
   const mailOptions = {
     from: `"Messmate" <${process.env.BREVO_EMAIL}>`,
     to: to,
@@ -59,9 +59,4 @@ const sendResetPasswordAcknowledgementEmail = async (to) => {
   };
 
   await sendMail(to, mailOptions);
-};
-
-module.exports = {
-  sendResetPasswordEmail,
-  sendResetPasswordAcknowledgementEmail,
 };
