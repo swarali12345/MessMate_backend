@@ -27,7 +27,7 @@ async function sendMail(to, mailOptions) {
 
 export const sendResetPasswordEmail = async (to, token) => {
   const FRONTEND_URI =
-    process.env.NODE_ENV === "LOCAL"
+    process.env.NODE_ENV in ["LOCAL" || "development"]
       ? "http://localhost:3000"
       : process.env.FRONTEND_URI;
   const resetURL = FRONTEND_URI + `/auth/reset-password/${token}`;
