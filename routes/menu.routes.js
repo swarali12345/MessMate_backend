@@ -25,11 +25,11 @@ import {
   updateFoodItem,
   deleteFoodItem,
   restoreFoodItem,
-  addFoodVariant,
-  getItemVariants,
-  updateFoodVariant,
-  deleteFoodVariant,
-  restoreFoodVariant,
+  addAddon,
+  getAddons,
+  updateAddon,
+  deleteAddon,
+  restoreAddon,
 } from "../controllers/menu.controller.js";
 
 // ----- Category Routes -----
@@ -38,7 +38,7 @@ import {
  * @swagger
  * tags:
  *   name: Menu
- *   description: Menu management (Categories, Food Items, Variants)
+ *   description: Menu management (Categories, Food Items, addons)
  */
 
 /**
@@ -69,6 +69,10 @@ router.get("/categories", getCurrentCategories); // 🟢 Public
  *             type: object
  *             properties:
  *               name:
+ *                 type: string
+ *               description:
+ *                 type: string
+ *               isAvailable:
  *                 type: string
  *     responses:
  *       201:
@@ -303,13 +307,13 @@ router.delete("/items/:id", authMiddleware, deleteFoodItem);
  */
 router.patch("/items/:id/restore", authMiddleware, restoreFoodItem);
 
-// ----- Variant Routes -----
+// ----- addon Routes -----
 
 /**
  * @swagger
- * /menu/items/{itemId}/variants:
+ * /menu/items/{itemId}/addons:
  *   get:
- *     summary: Get variants of a food item
+ *     summary: Get addons of a food item
  *     tags: [Menu]
  *     parameters:
  *       - name: itemId
@@ -319,15 +323,15 @@ router.patch("/items/:id/restore", authMiddleware, restoreFoodItem);
  *           type: string
  *     responses:
  *       200:
- *         description: List of variants
+ *         description: List of addons
  */
-router.get("/items/:itemId/variants", getItemVariants);
+router.get("/items/:itemId/addons", getAddons);
 
 /**
  * @swagger
- * /menu/items/{itemId}/variants:
+ * /menu/items/{itemId}/addons:
  *   post:
- *     summary: Add a variant to a food item
+ *     summary: Add an addon to a food item
  *     tags: [Menu]
  *     security:
  *       - bearerAuth: []
@@ -350,72 +354,72 @@ router.get("/items/:itemId/variants", getItemVariants);
  *                 type: number
  *     responses:
  *       201:
- *         description: Variant created
+ *         description: addon created
  */
-router.post("/items/:itemId/variants", authMiddleware, addFoodVariant);
+router.post("/items/:itemId/addons", authMiddleware, addAddon);
 
 /**
  * @swagger
- * /menu/variants/{variantId}:
+ * /menu/addons/{addonId}:
  *   put:
- *     summary: Update a food variant
+ *     summary: Update a food addon
  *     tags: [Menu]
  *     security:
  *       - bearerAuth: []
  *     parameters:
- *       - name: variantId
+ *       - name: addonId
  *         in: path
  *         required: true
  *         schema:
  *           type: string
  *     responses:
  *       200:
- *         description: Variant updated
+ *         description: addon updated
  */
-router.put("/variants/:variantId", authMiddleware, updateFoodVariant);
+router.put("/addons/:addonId", authMiddleware, updateAddon);
 
 /**
  * @swagger
- * /menu/variants/{variantId}:
+ * /menu/addons/{addonId}:
  *   delete:
- *     summary: Delete a food variant
+ *     summary: Delete a food addon
  *     tags: [Menu]
  *     security:
  *       - bearerAuth: []
  *     parameters:
- *       - name: variantId
+ *       - name: addonId
  *         in: path
  *         required: true
  *         schema:
  *           type: string
  *     responses:
  *       200:
- *         description: Variant deleted
+ *         description: addon deleted
  */
-router.delete("/variants/:variantId", authMiddleware, deleteFoodVariant);
+router.delete("/addons/:addonId", authMiddleware, deleteAddon);
 
 /**
  * @swagger
- * /menu/variants/{variantId}/restore:
+ * /menu/addons/{addonId}/restore:
  *   patch:
- *     summary: Restore a soft-deleted food variant
+ *     summary: Restore a soft-deleted food addon
  *     tags: [Menu]
  *     security:
  *       - bearerAuth: []
  *     parameters:
- *       - name: variantId
+ *       - name: addonId
  *         in: path
  *         required: true
  *         schema:
  *           type: string
  *     responses:
  *       200:
- *         description: Variant restored
+ *         description: addon restored
  */
 router.patch(
-  "/variants/:variantId/restore",
+  "/addons/:addonId/restore",
   authMiddleware,
-  restoreFoodVariant
+  restoreAddon
 );
 
 export default router;

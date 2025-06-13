@@ -2,19 +2,14 @@ import mongoose from "mongoose";
 import mongooseDelete from "mongoose-delete";
 // import { softDeletePlugin } from "./SoftDelete.plugin.js";
 
-const ItemVariantSchema = new mongoose.Schema(
+const AddonSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      required: [true, "Variant name required"],
+      required: [true, "Addon name required"],
       trim: true,
       minlength: [1, "Variant name too short"],
       maxlength: [50, "Variant name too long"],
-    },
-    foodItem: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "FoodItem",
-      required: [true, "Associated FoodItem is required"],
     },
     price: {
       type: Number,
@@ -26,10 +21,16 @@ const ItemVariantSchema = new mongoose.Schema(
         message: "Price must be a valid currency amount",
       },
     },
-    available: {
+    isAvailable: {
       type: Boolean,
       default: true,
     },
+        foodItem: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "FoodItem",
+      required: [true, "Associated FoodItem is required"],
+    },
+
     createdAt: {
       type: Date,
       default: Date.now,
@@ -45,18 +46,18 @@ const ItemVariantSchema = new mongoose.Schema(
   }
 );
 
-ItemVariantSchema.index({ name: 1, foodItem: 1 }, { unique: true });
+AddonSchema.index({ name: 1, foodItem: 1 }, { unique: true });
 
-ItemVariantSchema.pre("save", function (next) {
+AddonSchema.pre("save", function (next) {
   this.updatedAt = Date.now();
   next();
 });
 
-ItemVariantSchema.plugin(mongooseDelete, {
+AddonSchema.plugin(mongooseDelete, {
   deletedAt: true,
   overrideMethods: "all",
 });
 
-// ItemVariantSchema.plugin(softDeletePlugin);
+// AddonSchema.plugin(softDeletePlugin);
 
-export default mongoose.model("ItemVariant", ItemVariantSchema);
+export default mongoose.model("Addon", AddonSchema);

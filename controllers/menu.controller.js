@@ -1,23 +1,28 @@
 // DB interactions
 import Category from "../models/Category.model.js";
 import FoodItem from "../models/FoodItem.model.js";
-import ItemVariant from "../models/ItemVariant.model.js";
+import Addon from "../models/Addon.model.js";
 
 // ----- Category API calls -----
 
 export const addCategory = async (req, res, next) => {
   try {
-    const { name, description } = req.body;
+    const { name, description, isAvailable } = req.body;
 
     const existing = await Category.findOne({ name: name.trim() }).lean();
 
     if (existing) {
       return res.status(409).json({ message: "Category already exists." });
     }
+    if (typeof isAvailable !== 'boolean') {
+      return res.status(400).json({ message: "'isAvailable' must be a boolean." });
+    }
+
 
     const newCategory = await Category.insertOne({
       name: name.trim(),
       description,
+      isAvailable: typeof isAvailable === 'boolean' ? isAvailable : true
     });
 
     return res.status(201).json({
@@ -293,7 +298,7 @@ export const restoreFoodItem = async (req, res, next) => {
 // ----- Item Variant API calls -----
 
 // Add Food Variant
-export const addFoodVariant = async (req, res, next) => {
+export const addAddon = async (req, res, next) => {
   try {
     const { foodItemId, name, additionalPrice } = req.body;
 
@@ -302,7 +307,7 @@ export const addFoodVariant = async (req, res, next) => {
     }
 
     // Check for duplicate variant name per food item
-    const existing = await ItemVariant.findOne({
+    const existing = await Addon.findOne({
       foodItem: foodItemId,
       name: { $regex: `^${name.trim()}$`, $options: "i" },
     }).lean();
@@ -310,17 +315,17 @@ export const addFoodVariant = async (req, res, next) => {
     if (existing) {
       return res
         .status(409)
-        .json({ message: "Variant already exists for this food item." });
+        .json({ message: "Addon already exists for this food item." });
     }
 
-    const variant = await ItemVariant.create({
+    const addon = await Addon.create({
       foodItem: foodItemId,
       name: name.trim(),
       additionalPrice: additionalPrice || 0,
     });
 
     res.status(201).json({
-      message: "Variant added successfully.",
+      message: "Addon added successfully.",
       variant,
     });
   } catch (error) {
@@ -328,36 +333,36 @@ export const addFoodVariant = async (req, res, next) => {
   }
 };
 // Get Item Variants by Food Item ID
-export const getItemVariants = async (req, res, next) => {
+export const getAddons = async (req, res, next) => {
   try {
     const { foodItemId } = req.params;
     if (!foodItemId) {
       return res.status(400).json({ message: "Food item ID required." });
     }
 
-    const variants = await ItemVariant.find({ foodItem: foodItemId }).lean();
+    const addons = await Addon.find({ foodItem: foodItemId }).lean();
 
-    if (!variants.length) {
+    if (!addons.length) {
       return res
         .status(404)
-        .json({ message: "No variants found for this food item." });
+        .json({ message: "No addons found for this food item." });
     }
 
-    res.status(200).json({ variants });
+    res.status(200).json({ addons });
   } catch (error) {
     next(error);
   }
 };
 
 // Update Food Variant
-export const updateFoodVariant = async (req, res, next) => {
+export const updateAddon = async (req, res, next) => {
   try {
     const { variantId, name, additionalPrice } = req.body;
     if (!variantId) {
       return res.status(400).json({ message: "Variant ID is required." });
     }
 
-    const variant = await ItemVariant.findById(variantId);
+    const variant = await Addon.findById(variantId);
     if (!variant) {
       return res.status(404).json({ message: "Variant not found." });
     }
@@ -376,11 +381,11 @@ export const updateFoodVariant = async (req, res, next) => {
   }
 };
 // Delete Food Variant (soft delete)
-export const deleteFoodVariant = async (req, res, next) => {
+export const deleteAddon = async (req, res, next) => {
   try {
     const { variantId } = req.params;
 
-    const variant = await ItemVariant.findById(variantId);
+    const variant = await Addon.findById(variantId);
     if (!variant) {
       return res.status(404).json({ message: "Variant not found." });
     }
@@ -392,10 +397,10 @@ export const deleteFoodVariant = async (req, res, next) => {
     next(error);
   }
 };
-export const restoreFoodVariant = async (req, res, next) => {
+export const restoreAddon = async (req, res, next) => {
   try {
     const { variantId } = req.params;
-    const variant = await ItemVariant.findById(variantId).withDeleted(); // include deleted docs
+    const variant = await Addon.findById(variantId).withDeleted(); // include deleted docs
 
     if (!variant) {
       return res.status(404).json({ message: "Variant not found" });

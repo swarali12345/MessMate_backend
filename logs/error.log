@@ -3202,3 +3202,178 @@ MongooseServerSelectionError: Could not connect to any servers in your MongoDB A
 Stack: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
     at _handleConnectionErrors (C:\Users\sit.lab4\Desktop\MessMate_backend\node_modules\mongoose\lib\connection.js:1165:11)
     at NativeConnection.openUri (C:\Users\sit.lab4\Desktop\MessMate_backend\node_modules\mongoose\lib\connection.js:1096:11)
+[2025-06-13 10:37:04] [31merror[39m: uncaughtException: ItemVariantSchema is not defined
+ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:37:22] [31merror[39m: uncaughtException: ItemVariantSchema is not defined
+ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:37:25] [31merror[39m: uncaughtException: ItemVariantSchema is not defined
+ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:37:28] [31merror[39m: uncaughtException: ItemVariantSchema is not defined
+ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:37:46] [31merror[39m: uncaughtException: ItemVariantSchema is not defined
+ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:38:12] [31merror[39m: uncaughtException: ItemVariantSchema is not defined
+ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:39:18] [31merror[39m: uncaughtException: ItemVariantSchema is not defined
+ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:39:36] [31merror[39m: uncaughtException: ItemVariantSchema is not defined
+ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:39:50] [31merror[39m: uncaughtException: ItemVariantSchema is not defined
+ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:39:59] [31merror[39m: uncaughtException: ItemVariantSchema is not defined
+ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:40:00] [31merror[39m: uncaughtException: ItemVariantSchema is not defined
+ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:40:07] [31merror[39m: uncaughtException: ItemVariantSchema is not defined
+ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: ReferenceError: ItemVariantSchema is not defined
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/models/Addon.model.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:41:12] [31merror[39m: uncaughtException: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\sit.lab4\Desktop\Anvesh\MessMate_backend\node_modules\mongoose\lib\connection.js:1165:11)
+    at NativeConnection.openUri (C:\Users\sit.lab4\Desktop\Anvesh\MessMate_backend\node_modules\mongoose\lib\connection.js:1096:11)
+Stack: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\sit.lab4\Desktop\Anvesh\MessMate_backend\node_modules\mongoose\lib\connection.js:1165:11)
+    at NativeConnection.openUri (C:\Users\sit.lab4\Desktop\Anvesh\MessMate_backend\node_modules\mongoose\lib\connection.js:1096:11)
+[2025-06-13 10:44:49] [31merror[39m: uncaughtException: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\sit.lab4\Desktop\Anvesh\MessMate_backend\node_modules\mongoose\lib\connection.js:1165:11)
+    at NativeConnection.openUri (C:\Users\sit.lab4\Desktop\Anvesh\MessMate_backend\node_modules\mongoose\lib\connection.js:1096:11)
+Stack: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\sit.lab4\Desktop\Anvesh\MessMate_backend\node_modules\mongoose\lib\connection.js:1165:11)
+    at NativeConnection.openUri (C:\Users\sit.lab4\Desktop\Anvesh\MessMate_backend\node_modules\mongoose\lib\connection.js:1096:11)
+[2025-06-13 10:45:37] [31merror[39m: uncaughtException: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\sit.lab4\Desktop\Anvesh\MessMate_backend\node_modules\mongoose\lib\connection.js:1165:11)
+    at NativeConnection.openUri (C:\Users\sit.lab4\Desktop\Anvesh\MessMate_backend\node_modules\mongoose\lib\connection.js:1096:11)
+Stack: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\sit.lab4\Desktop\Anvesh\MessMate_backend\node_modules\mongoose\lib\connection.js:1165:11)
+    at NativeConnection.openUri (C:\Users\sit.lab4\Desktop\Anvesh\MessMate_backend\node_modules\mongoose\lib\connection.js:1096:11)
+[2025-06-13 10:51:07] [31merror[39m: uncaughtException: Joi.boolean(...).trim is not a function
+TypeError: Joi.boolean(...).trim is not a function
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/validators/menu.validator.js:6:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: TypeError: Joi.boolean(...).trim is not a function
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/validators/menu.validator.js:6:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+[2025-06-13 10:51:11] [31merror[39m: uncaughtException: Joi.boolean(...).trim is not a function
+TypeError: Joi.boolean(...).trim is not a function
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/validators/menu.validator.js:6:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Stack: TypeError: Joi.boolean(...).trim is not a function
+    at file:///C:/Users/sit.lab4/Desktop/Anvesh/MessMate_backend/validators/menu.validator.js:6:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)

@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import mongooseDelete from "mongoose-delete";
+import Addon from "./Addon.model.js";
 // import { softDeletePlugin } from "./SoftDelete.plugin.js";
 
 const FoodItemSchema = new mongoose.Schema(
@@ -11,6 +12,12 @@ const FoodItemSchema = new mongoose.Schema(
       minlength: [2, "Name must be at least 2 characters"],
       maxlength: [100, "Name must be under 100 characters"],
     },
+    description: {
+      type: String,
+      trim: true,
+      maxlength: [500, "Description too long"],
+      default: "",
+    },
     price: {
       type: Number,
       required: [true, "Price is required"],
@@ -19,21 +26,6 @@ const FoodItemSchema = new mongoose.Schema(
         validator: (v) => v % 0.01 === 0, // ensure price up to 2 decimal places
         message: "Price must be a valid currency amount",
       },
-    },
-    category: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Category",
-      required: [true, "Category is required"],
-    },
-    available: {
-      type: Boolean,
-      default: true,
-    },
-    description: {
-      type: String,
-      trim: true,
-      maxlength: [500, "Description too long"],
-      default: "",
     },
     imageUrl: {
       type: String,
@@ -45,6 +37,20 @@ const FoodItemSchema = new mongoose.Schema(
         message: "Image URL must be a valid URL to an image",
       },
     },
+    isAvailable: {
+      type: Boolean,
+      default: true,
+    },
+    category: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Category",
+      required: [true, "Category is required"],
+    },
+    addons: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Addon",
+    }],
+
     createdAt: {
       type: Date,
       default: Date.now,

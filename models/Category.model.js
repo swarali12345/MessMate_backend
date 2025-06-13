@@ -19,7 +19,7 @@ const CategorySchema = new mongoose.Schema(
       trim: true,
       maxlength: [255, "Description too long"],
     },
-    isActive: {
+    isAvailable: {
       type: Boolean,
       default: true,
     },
@@ -31,6 +31,16 @@ const CategorySchema = new mongoose.Schema(
     updatedAt: {
       type: Date,
       default: Date.now,
+    },
+    imageUrl: {
+      type: String,
+      default: "",
+      validate: {
+        validator: (v) =>
+          v === "" ||
+          /^https?:\/\/.+\.(jpg|jpeg|png|webp|avif|gif|svg)$/.test(v),
+        message: "Image URL must be a valid URL to an image",
+      },
     },
     // deletedAt: {
     //   type: Date,
